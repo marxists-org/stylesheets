@@ -12,15 +12,24 @@
  *
  */
 :root {
+  /* color variables */
   --color-black: rgb(0, 0, 0);
+  --color-gray-7: rgb(18, 18, 18);
+  --color-gray-11: rgb(28, 28, 28);
   --color-gray-20: rgb(51, 51, 51); /* #333333 */
+  --color-gray-24: rgb(62, 62, 62);
   --color-gray-40: rgb(102, 102, 102); /* #666666 */
+  --color-gray-51: rgb(129, 129, 129);
   --color-gray-60: rgb(153, 153, 153); /* #999999 */
+  --color-gray-66: rgb(169, 169, 169);
   --color-gray-67: rgb(170, 170, 170); /* #aaaaaa */
+  --color-gray-69: rgb(177, 177, 177);
   --color-gray-80: rgb(204, 204, 204); /* #cccccc */
   --color-gray-93: rgb(238, 238, 238); /* #eeeeee */
   --color-gray-94: rgb(239, 239, 239); /* #efefef */
   --color-white: rgb(255, 255, 255);
+  --color-cyan-dark: rgb(80, 164, 202);
+  --color-cyan-bright: rgb(90, 200, 250);
   --color-blue-20: rgb(0, 0, 51); /* #000033 */
   --color-blue-40: rgb(0, 0, 102); /* #000066 */
   --color-blue-53: rgb(0, 0, 136); /* #000088 */
@@ -31,6 +40,7 @@
 }
 
 body {
+  /* theme variables */
   --a--color: var(--color-blue-60);
   --a-visited--color: var(--color-purple);
   --a-mecw--color: var(--color-gray-67);
@@ -888,3 +898,133 @@ td.sdata {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  body:not(.day) {
+    --a--color: var(--color-cyan-bright);
+    --a-visited--color: var(--color-cyan-bright);
+    --body--bg-color: var(--color-gray-7);
+    --body--color: var(--color-gray-69);
+    --div-border--bg-color: var(--color-gray-7);
+    --div-border--border-color: var(--color-gray-24);
+    --hr--bg-color: var(--color-gray-24);
+    --h1--color: var(--color-gray-66);
+    --h1-big--color: var(--color-gray-66);
+    --h2--color: var(--color-gray-66);
+    --h3--color: var(--color-gray-66);
+    --h4--color: var(--color-gray-66);
+    --h5--color: var(--color-gray-66);
+    --h6--color: var(--color-gray-66);
+    --h7--color: var(--color-gray-66);
+    --sup-anote--color: var(--color-gray-69);
+    --sup-ednote--color: var(--color-gray-69);
+    --span-inote--color: var(--color-gray-69);
+    --span-info--color: var(--color-gray-69);
+    --span-term--color: var(--color-gray-69);
+    --span-date--color: var(--color-gray-69);
+    --span-context--color: var(--color-gray-69);
+    --p-information--color: var(--color-gray-69);
+    --p-transcriber--color: var(--color-gray-69);
+    --p-endnote--color: var(--color-gray-69);
+    --p-inline--color: var(--color-gray-69);
+    --p-toc--color: var(--color-gray-69);
+    --p--title2--color: var(--color-gray-69);
+    --p-pagenote--color: var(--color-gray-69);
+    --p-pagenoteb--color: var(--color-gray-69);
+    --table-data--bg-color: var(--color-black);
+    --table-data-td--bg-color: var(--color-black);
+    --table-data-td--color: var(--color-gray-69);
+    --td-data--bg-color: var(--color-black);
+    --td-data--color: var(--color-gray-69);
+    --td-border--border-color: var(--color-gray-20);
+    --td-head--bg-color: var(--color-gray-11);
+    --tr-alt--bg-color: var(--color-black);
+    --tr-total--bg-color: var(--color-cyan-dark);
+    --tr-total--color: var(--color-gray-7);
+    --tr-totalb--bg-color: var(--color-cyan-bright);
+    --tr-totalb--color: var(--color-gray-7);
+    --td-index--bg-color: var(--color-gray-7);
+    --td-index--color: inherit;
+    --td-index-alt--bg-color: var(--color-gray-7);
+    --td-index-alt--color: var(--color-gray-51);
+    --td-indexb--bg-color: var(--color-gray-7);
+    --td-indexb--color: inherit;
+  }
+  body:not(.day) hr {
+    border: none;
+  }
+
+  body:not(.day) table {
+    border-collapse: collapse;
+  }
+
+  body:not(.day) th,
+  body:not(.day) td {
+    border: 1px solid var(--color-gray-20);
+    padding: 0.25em 0.5em;
+  }
+}
+
+body.night {
+  --a--color: var(--color-cyan-bright);
+  --a-visited--color: var(--color-cyan-bright);
+  --body--bg-color: var(--color-gray-7);
+  --body--color: var(--color-gray-69);
+  --div-border--bg-color: var(--color-gray-7);
+  --div-border--border-color: var(--color-gray-24);
+  --hr--bg-color: var(--color-gray-24);
+  --h1--color: var(--color-gray-66);
+  --h1-big--color: var(--color-gray-66);
+  --h2--color: var(--color-gray-66);
+  --h3--color: var(--color-gray-66);
+  --h4--color: var(--color-gray-66);
+  --h5--color: var(--color-gray-66);
+  --h6--color: var(--color-gray-66);
+  --h7--color: var(--color-gray-66);
+  --sup-anote--color: var(--color-gray-69);
+  --sup-ednote--color: var(--color-gray-69);
+  --span-inote--color: var(--color-gray-69);
+  --span-info--color: var(--color-gray-69);
+  --span-term--color: var(--color-gray-69);
+  --span-date--color: var(--color-gray-69);
+  --span-context--color: var(--color-gray-69);
+  --p-information--color: var(--color-gray-69);
+  --p-transcriber--color: var(--color-gray-69);
+  --p-endnote--color: var(--color-gray-69);
+  --p-inline--color: var(--color-gray-69);
+  --p-toc--color: var(--color-gray-69);
+  --p--title2--color: var(--color-gray-69);
+  --p-pagenote--color: var(--color-gray-69);
+  --p-pagenoteb--color: var(--color-gray-69);
+  --table-date--bg-color: var(--color-black);
+  --table-data-td--bg-color: var(--color-black);
+  --table-data-td--color: var(--color-gray-69);
+  --td-data--bg-color: var(--color-black);
+  --td-data--color: var(--color-gray-69);
+  --td-border--border-color: var(--color-gray-20);
+  --td-head--bg-color: var(--color-gray-11);
+  --tr-alt--bg-color: var(--color-black);
+  --tr-total--bg-color: var(--color-cyan-dark);
+  --tr-total--color: var(--color-gray-7);
+  --tr-totalb--bg-color: var(--color-cyan-bright);
+  --tr-totalb--color: var(--color-gray-7);
+  --td-index--bg-color: var(--color-gray-7);
+  --td-index--color: inherit;
+  --td-index-alt--bg-color: var(--color-gray-7);
+  --td-index-alt--color: var(--color-gray-51);
+  --td-indexb--bg-color: var(--color-gray-7);
+  --td-indexb--color: inherit;
+}
+
+body.night hr {
+  border: none;
+}
+
+body.night table {
+  border-collapse: collapse;
+}
+
+body.night th,
+body.night td {
+  border: 1px solid var(--color-gray-20);
+  padding: 0.25em 0.5em;
+}
