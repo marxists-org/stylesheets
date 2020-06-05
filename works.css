@@ -614,8 +614,6 @@ table {
 
 td {
   text-indent: 0em;
-  background: #ffffff;
-  color: #000000;
   vertical-align: top;
   text-align: left;
   line-height: 125%;
@@ -709,6 +707,8 @@ td.text {
 }
 
 td.data {
+  background: #ffffff;
+  color: #000000;
   text-indent: 0em;
   font-family: "Georgia", serif;
   font-size: 12pt;
