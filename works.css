@@ -23,17 +23,14 @@ body {
 
 a:link {
   color: #000099;
-  background: transparent
 }
 
 a:visited {
   color: #883399;
-  background: transparent
 }
 
 a.mecw {
   color: #aaaaaa;
-  background: transparent;
   text-decoration: none
 }
 
@@ -105,7 +102,6 @@ blockquote {
 
 /* Basic p */
 p {
-  background: transparent;
   text-indent: 1em;
   font-family: "Georgia", serif;
   font-size: 12pt;
@@ -114,7 +110,6 @@ p {
   line-height: 150%;
   margin-left: 6%;
   margin-right: 6%;
-  text-decoration: none;
 }
 
 
@@ -124,7 +119,6 @@ p {
 
 /* Document Title */
 h1 {
-  background: transparent;
   color: #000033;
   font-weight: bold;
   font-size: xx-large;
@@ -135,7 +129,6 @@ h1 {
 }
 
 h1.big {
-  background: transparent;
   color: #000033;
   font-weight: bold;
   font-size: 28pt;
@@ -147,7 +140,6 @@ h1.big {
 
 /* Authors' name */
 h2 {
-  background: transparent;
   color: #000033;
   font-weight: bold;
   font-size: large;
@@ -160,7 +152,6 @@ h2 {
 
 /* Chapter Title */
 h3 {
-  background: transparent;
   color: #000033;
   font-weight: bold;
   text-align: center;
@@ -173,7 +164,6 @@ h3 {
 
 /* Section Title */
 h4 {
-  background: transparent;
   color: #000033;
   font-weight: bold;
   text-align: center;
@@ -186,7 +176,6 @@ h4 {
 
 /* Sub Section 2 */
 h5 {
-  background: transparent;
   color: #000033;
   font-weight: bold;
   text-align: center;
@@ -199,7 +188,6 @@ h5 {
 
 /* Sub Section 3 */
 h6 {
-  background: transparent;
   color: #000033;
   font-weight: bold;
   text-align: left;
@@ -212,7 +200,6 @@ h6 {
 
 /* Sub Section 4 */
 h7 {
-  background: transparent;
   color: #000066;
   font-weight: normal;
   text-align: left;
@@ -228,19 +215,15 @@ h7 {
 /* =====================================*/
 
 sup {
-  background: transparent;
   font-family: "Arial", monospace;
   font-size: x-small;
   font-weight: normal;
-  text-decoration: none;
 }
 
 sub {
-  background: transparent;
   font-family: "Arial", monospace;
   font-size: x-small;
   font-weight: normal;
-  text-decoration: none;
 }
 
 /* Author's */
@@ -287,7 +270,6 @@ sup.eq {
 
 /* Used in the info block */
 span.info {
-  background: transparent;
   color: #000033;
   font-family: "Arial", sans-serif;
   font-size: 11pt;
@@ -296,7 +278,6 @@ span.info {
 
 /* Used for notes in the text */
 span.term {
-  background: transparent;
   color: #000033;
   font-family: "Arial", sans-serif;
   font-size: 12pt;
@@ -305,7 +286,6 @@ span.term {
 
 /* Indiscreet text (primarily for dates) */
 span.date {
-  background: transparent;
   color: #333333;
   font-family: "Arial", sans-serif;
   font-size: small;
@@ -314,7 +294,6 @@ span.date {
 
 /* Editorial notes in text */
 span.inote {
-  background: transparent;
   color: #666666;
   font-family: "Georgia", serif;
   font-size: 12pt;
@@ -491,7 +470,6 @@ p.sig {
 
 /* Misc page note */
 p.pagenote {
-  background: transparent;
   color: #000033;
   font-family: "Arial", sans-serif;
   font-size: x-small;
@@ -513,7 +491,6 @@ p.sub {
 
 /* Misc page note (justified) */
 p.pagenoteb {
-  background: transparent;
   color: #666666;
   font-family: "Arial", sans-serif;
   font-size: x-small;
