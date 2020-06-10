@@ -1,0 +1,23 @@
+{
+  "name": "marxists.org-css",
+  "version": "1.0.0",
+  "description": "marxists.org css",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "npx postcss src/works.css > build/works.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipmooney/marxists.org-css.git"
+  },
+  "author": "Philip Mooney <philipm@marxists.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss-cli": "^7.1.1",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-prettify": "^0.3.4"
+  }
+}

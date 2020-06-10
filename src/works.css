@@ -11,6 +11,7 @@
  * e.g. https://www.marxists.org/archive/marx/works/1845/theses/index.htm
  *
  */
+
 :root {
   /* color variables */
   --color-black: rgb(0, 0, 0);
@@ -37,9 +38,6 @@
   --color-purple: rgb(136, 51, 153); /* #883399 */
   --color-pink-flat: rgb(255, 204, 204); /* #ffcccc */
   --color-pink-bright: rgb(255, 153, 153); /* #ff9999 */
-}
-
-body {
   /* theme variables */
   --a--color: var(--color-blue-60);
   --a-visited--color: var(--color-purple);
@@ -92,9 +90,11 @@ body {
   --td-indexb--color: var(--color-gray-60);
 }
 
-/* =====================================*/
-/* General                              */
-/* =====================================*/
+/**
+ * =====================================
+ * General
+ * =====================================
+ */
 
 body {
   background: var(--body--bg-color);
@@ -181,6 +181,7 @@ blockquote {
 }
 
 /* Basic p */
+
 p {
   text-indent: 1em;
   font-family: "Georgia", serif;
@@ -192,12 +193,14 @@ p {
   margin-right: 6%;
 }
 
-
-/* =====================================*/
-/* Document Headers                     */
-/* =====================================*/
+/**
+ * =====================================
+ * Document Headers
+ * =====================================
+ */
 
 /* Document Title */
+
 h1 {
   color: var(--h1--color);
   font-weight: bold;
@@ -219,6 +222,7 @@ h1.big {
 }
 
 /* Authors' name */
+
 h2 {
   color: var(--h2--color);
   font-weight: bold;
@@ -231,6 +235,7 @@ h2 {
 }
 
 /* Chapter Title */
+
 h3 {
   color: var(--h3--color);
   font-weight: bold;
@@ -243,6 +248,7 @@ h3 {
 }
 
 /* Section Title */
+
 h4 {
   color: var(--h4--color);
   font-weight: bold;
@@ -255,6 +261,7 @@ h4 {
 }
 
 /* Sub Section 2 */
+
 h5 {
   color: var(--h5--color);
   font-weight: bold;
@@ -267,6 +274,7 @@ h5 {
 }
 
 /* Sub Section 3 */
+
 h6 {
   color: var(--h6--color);
   font-weight: bold;
@@ -279,6 +287,7 @@ h6 {
 }
 
 /* Sub Section 4 */
+
 h7 {
   color: var(--h7--color);
   font-weight: normal;
@@ -290,9 +299,11 @@ h7 {
   margin-right: 6%;
 }
 
-/* =====================================*/
-/* Footnote references                  */
-/* =====================================*/
+/**
+ * =====================================
+ * Footnote references
+ * =====================================
+ */
 
 sup {
   font-family: "Arial", monospace;
@@ -307,6 +318,7 @@ sub {
 }
 
 /* Author's */
+
 sup.anote {
   color: var(--sup-anote--color);
   font-family: "Georgia", serif;
@@ -314,6 +326,7 @@ sup.anote {
 }
 
 /* Editor's */
+
 sup.ednote {
   color: var(--sup-ednote--color);
   font-family: "Courier New", monospace;
@@ -344,11 +357,14 @@ sup.eq {
   font-family: "Georgia", serif;
 }
 
-/* =====================================*/
-/* Spanners                             */
-/* =====================================*/
+/**
+ * =====================================
+ * Spanners
+ * =====================================
+ */
 
 /* Used in the info block */
+
 span.info {
   color: var(--span-info--color);
   font-family: "Arial", sans-serif;
@@ -357,6 +373,7 @@ span.info {
 }
 
 /* Used for notes in the text */
+
 span.term {
   color: var(--span-term--color);
   font-family: "Arial", sans-serif;
@@ -365,6 +382,7 @@ span.term {
 }
 
 /* Indiscreet text (primarily for dates) */
+
 span.date {
   color: var(--span-date--color);
   font-family: "Arial", sans-serif;
@@ -373,6 +391,7 @@ span.date {
 }
 
 /* Editorial notes in text */
+
 span.inote {
   color: var(--span-inote--color);
   font-family: "Georgia", serif;
@@ -381,25 +400,31 @@ span.inote {
 }
 
 /* Abstracts */
+
 span.context {
   color: var(--span-context--color);
 }
 
 /* Greek text */
+
 span.greek {
   font-family: symbol
 }
 
-/* =====================================*/
-/* Paragraph Styles                     */
-/* =====================================*/
+/**
+ * =====================================
+ * Paragraph Styles
+ * =====================================
+ */
 
 /* Basic p -- without first line indent */
+
 p.fst {
   text-indent: 0em;
 }
 
 /* Document Bibliographical Informaiton */
+
 p.information {
   color: var(--p-information--color);
   text-indent: 0em;
@@ -430,6 +455,7 @@ p.transcriber {
 }
 
 /* Footnote text */
+
 p.endnote {
   color: var(--p-endnote--color);
   font-size: 11pt;
@@ -438,11 +464,14 @@ p.endnote {
   text-indent: 0em;
 }
 
-/*----------------------------------*/
-/* Quote elements                   */
-/*----------------------------------*/
+/**
+ * =====================================
+ * Quote elements
+ * =====================================
+ */
 
 /* Standard Quote */
+
 p.quote {
   font-size: 11pt;
   line-height: 130%;
@@ -451,6 +480,7 @@ p.quote {
 }
 
 /* Quote without first line indent */
+
 p.quoteb {
   text-indent: 0em;
   font-size: 11pt;
@@ -461,6 +491,7 @@ p.quoteb {
 }
 
 /* Sub Quote C (increased margin) */
+
 p.quotec {
   text-indent: 0em;
   font-size: 11pt;
@@ -470,6 +501,7 @@ p.quotec {
 }
 
 /* Negative indent for number list */
+
 p.quote-list {
   text-indent: -1em;
   font-size: 11pt;
@@ -479,6 +511,7 @@ p.quote-list {
 }
 
 /* Citation (quote citied) */
+
 p.inline {
   color: var(--p-inline--color);
   text-indent: 0em;
@@ -489,11 +522,14 @@ p.inline {
   margin-right: 8%;
 }
 
-/*----------------------------------*/
-/* Index elements                   */
-/*----------------------------------*/
+/**
+ * =====================================
+ * Index elements
+ * =====================================
+ */
 
 /* Table of contents */
+
 p.toc {
   color: var(--p-toc--color);
   text-indent: 0em;
@@ -506,6 +542,7 @@ p.toc {
 }
 
 /* Basic Index */
+
 p.index {
   text-indent: 0em;
   font-family: "Helvetica", "Arial", sans-serif;
@@ -517,6 +554,7 @@ p.index {
 }
 
 /* Book title for Chapter files */
+
 p.title {
   text-indent: 0em;
   font-weight: bold;
@@ -537,6 +575,7 @@ p.title2 {
 }
 
 /* Signature */
+
 p.sig {
   text-indent: 0em;
   font-family: "Vivaldi", script, serif;
@@ -549,6 +588,7 @@ p.sig {
 }
 
 /* Misc page note */
+
 p.pagenote {
   color: var(--p-pagenote--color);
   font-family: "Arial", sans-serif;
@@ -559,6 +599,7 @@ p.pagenote {
 }
 
 /* Sub head */
+
 p.sub {
   font-size: 14pt;
   font-weight: bold;
@@ -570,6 +611,7 @@ p.sub {
 }
 
 /* Misc page note (justified) */
+
 p.pagenoteb {
   color: var(--p-pagenoteb--color);
   font-family: "Arial", sans-serif;
@@ -580,17 +622,21 @@ p.pagenoteb {
   margin-right: 10%;
 }
 
-/*----------------------------------*/
-/* Indented Text                    */
-/*----------------------------------*/
+/**
+ * =====================================
+ * Indented Text
+ * =====================================
+ */
 
 /* Standard Indent */
+
 p.indent {
   margin-left: 8%;
   margin-right: 8%;
 }
 
 /* Indent without first line indent */
+
 p.indentb {
   text-indent: 0em;
   margin-left: 10%;
@@ -598,6 +644,7 @@ p.indentb {
 }
 
 /* Sub Indent C (increased margin) */
+
 p.indentc {
   text-indent: 0em;
   margin-left: 16%;
@@ -606,27 +653,33 @@ p.indentc {
 }
 
 /* Negative indent for number list */
+
 p.indent-list {
   text-indent: -1em;
   margin-left: 12%;
   margin-right: 12%;
 }
 
-/*----------------------------------*/
-/* Page-ending elements             */
-/*----------------------------------*/
+/**
+ * =====================================
+ * Page-ending elements
+ * =====================================
+ */
 
 /* For blank spaces */
+
 p.skip {
   line-height: 75%
 }
 
 /* Misc date */
+
 p.date {
   text-align: right;
 }
 
 /* Next Section-Chapter of work */
+
 p.next {
   text-indent: 0em;
   font-family: "Arial", sans-serif;
@@ -653,6 +706,7 @@ p.updat {
 }
 
 /* Numbered List style */
+
 ul {
   margin-left: 6%;
   margin-right: 4%;
@@ -683,9 +737,11 @@ ol.numbered {
   margin-right: 14%;
 }
 
-/*----------------------------------*/
-/* Table elements                   */
-/*----------------------------------*/
+/**
+ * =====================================
+ * Table elements
+ * =====================================
+ */
 
 table {
   margin-left: auto;
@@ -713,6 +769,7 @@ table.data td {
 }
 
 /* Experimental begins, 27.11.2018, —JL */
+
 table.border {
   border-collapse: collapse
 }
@@ -721,9 +778,11 @@ td.border {
   border: 1px solid var(--td-border--border-color);
   padding: 3px;
 }
+
 /* Experimental ends */
 
 /* Column Headings */
+
 td.head {
   background: var(--td-head--bg-color);
   font-weight: bold;
@@ -733,6 +792,7 @@ td.head {
 }
 
 /* Row Colors */
+
 tr.alt {
   background: var(--tr-alt--bg-color);
 }
@@ -758,6 +818,7 @@ td.index {
 }
 
 /* Every alternate row */
+
 td.index-alt {
   background: var(--td-index-alt--bg-color);
   color: var(--td-index-alt--color);
@@ -769,6 +830,7 @@ td.index-alt {
 }
 
 /* Sub-Chapters */
+
 td.indexb {
   background: var(--td-indexb--bg-color);
   color: var(--td-indexb--color);
@@ -817,9 +879,11 @@ td.sdata {
   vertical-align: top;
 }
 
-/* =====================================*/
-/* Adjustments for Mobile Devices       */
-/* =====================================*/
+/**
+ * =====================================
+ * Adjustments for Mobile Devices
+ * =====================================
+ */
 
 @media (max-width: 480px) {
   p {
@@ -898,73 +962,25 @@ td.sdata {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  body:not(.day) {
-    --a--color: var(--color-cyan-bright);
-    --a-visited--color: var(--color-cyan-bright);
-    --body--bg-color: var(--color-gray-7);
-    --body--color: var(--color-gray-69);
-    --div-border--bg-color: var(--color-gray-7);
-    --div-border--border-color: var(--color-gray-24);
-    --hr--bg-color: var(--color-gray-24);
-    --h1--color: var(--color-gray-66);
-    --h1-big--color: var(--color-gray-66);
-    --h2--color: var(--color-gray-66);
-    --h3--color: var(--color-gray-66);
-    --h4--color: var(--color-gray-66);
-    --h5--color: var(--color-gray-66);
-    --h6--color: var(--color-gray-66);
-    --h7--color: var(--color-gray-66);
-    --sup-anote--color: var(--color-gray-69);
-    --sup-ednote--color: var(--color-gray-69);
-    --span-inote--color: var(--color-gray-69);
-    --span-info--color: var(--color-gray-69);
-    --span-term--color: var(--color-gray-69);
-    --span-date--color: var(--color-gray-69);
-    --span-context--color: var(--color-gray-69);
-    --p-information--color: var(--color-gray-69);
-    --p-transcriber--color: var(--color-gray-69);
-    --p-endnote--color: var(--color-gray-69);
-    --p-inline--color: var(--color-gray-69);
-    --p-toc--color: var(--color-gray-69);
-    --p--title2--color: var(--color-gray-69);
-    --p-pagenote--color: var(--color-gray-69);
-    --p-pagenoteb--color: var(--color-gray-69);
-    --table-data--bg-color: var(--color-black);
-    --table-data-td--bg-color: var(--color-black);
-    --table-data-td--color: var(--color-gray-69);
-    --td-data--bg-color: var(--color-black);
-    --td-data--color: var(--color-gray-69);
-    --td-border--border-color: var(--color-gray-20);
-    --td-head--bg-color: var(--color-gray-11);
-    --tr-alt--bg-color: var(--color-black);
-    --tr-total--bg-color: var(--color-cyan-dark);
-    --tr-total--color: var(--color-gray-7);
-    --tr-totalb--bg-color: var(--color-cyan-bright);
-    --tr-totalb--color: var(--color-gray-7);
-    --td-index--bg-color: var(--color-gray-7);
-    --td-index--color: inherit;
-    --td-index-alt--bg-color: var(--color-gray-7);
-    --td-index-alt--color: var(--color-gray-51);
-    --td-indexb--bg-color: var(--color-gray-7);
-    --td-indexb--color: inherit;
-  }
-  body:not(.day) hr {
-    border: none;
+/**
+ * =====================================
+ * Dark Mode
+ * =====================================
+ */
+
+@define-mixin dark-mode-body {
+  @media (prefers-color-scheme: dark) {
+    body:not(.day) {
+      @mixin-content;
+    }
   }
 
-  body:not(.day) table {
-    border-collapse: collapse;
-  }
-
-  body:not(.day) th,
-  body:not(.day) td {
-    border: 1px solid var(--color-gray-20);
-    padding: 0.25em 0.5em;
+  body.night {
+    @mixin-content;
   }
 }
 
-body.night {
+@mixin dark-mode-body {
   --a--color: var(--color-cyan-bright);
   --a-visited--color: var(--color-cyan-bright);
   --body--bg-color: var(--color-gray-7);
@@ -995,7 +1011,7 @@ body.night {
   --p--title2--color: var(--color-gray-69);
   --p-pagenote--color: var(--color-gray-69);
   --p-pagenoteb--color: var(--color-gray-69);
-  --table-date--bg-color: var(--color-black);
+  --table-data--bg-color: var(--color-black);
   --table-data-td--bg-color: var(--color-black);
   --table-data-td--color: var(--color-gray-69);
   --td-data--bg-color: var(--color-black);
@@ -1013,18 +1029,18 @@ body.night {
   --td-index-alt--color: var(--color-gray-51);
   --td-indexb--bg-color: var(--color-gray-7);
   --td-indexb--color: inherit;
-}
 
-body.night hr {
-  border: none;
-}
+  hr {
+    border: none;
+  }
 
-body.night table {
-  border-collapse: collapse;
-}
+  table {
+    border-collapse: collapse;
+  }
 
-body.night th,
-body.night td {
-  border: 1px solid var(--color-gray-20);
-  padding: 0.25em 0.5em;
+  th,
+  td {
+    border: 1px solid var(--color-gray-20);
+    padding: 0.25em 0.5em;
+  }
 }
