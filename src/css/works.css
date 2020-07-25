@@ -955,12 +955,6 @@ td.sdata {
  */
 
 @define-mixin dark-mode-body {
-  @media (prefers-color-scheme: dark) {
-    body:not(.day) {
-      @mixin-content;
-    }
-  }
-
   body.night {
     @mixin-content;
   }
