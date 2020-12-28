@@ -865,6 +865,41 @@ td.sdata {
   vertical-align: top;
 }
 
+/* migrated from /archive/css/works.css */
+
+p.index-list {
+  font-family : "Arial", sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  line-height: 100%;
+  margin-left: 9%;
+  margin-right: 9%;
+  text-align: left;
+  text-indent: 0em;
+}
+
+p.indexa {
+  font-family : "Arial", sans-serif;
+  font-size: 12pt;
+  font-weight: normal;
+  line-height: 125%;
+  margin-left: 12%;
+  margin-right: 6%;
+  text-align: left;
+  text-indent: 0em;
+}
+
+p.indexb {
+  font-family : Geneva, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  line-height: 115%;
+  margin-left: 16%;
+  margin-right: 11%;
+  text-align: left;
+  text-indent: 0em;
+}
+
 /*
  * =====================================
  * Adjustments for Mobile Devices
