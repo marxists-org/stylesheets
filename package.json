@@ -20,5 +20,6 @@
     "postcss-nested": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
     "postcss-prettify": "^0.3.4"
-  }
+  },
+  "dependencies": {}
 }
