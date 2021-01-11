@@ -1,3 +1,11 @@
+/**
+ * All Documents:
+ * This stylesheet is one of the basic MIA standards for ordinary texts (as
+ * opposed to indexes). It is imported into a range of styles with different
+ * colour schemes. New elements can be added here, or new stylesheets added
+ * incorporating a volunteer's specific needs.
+ * e.g. https://www.marxists.org/archive/marx/works/1845/theses/index.htm
+*/
 :root {
   /* color variables */
   --color-black: rgb(0, 0, 0);
