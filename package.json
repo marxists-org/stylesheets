@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "mkdir -p build/css/ && npx postcss src/css/works.css > build/css/works.css"
+    "build": "mkdir -p build/css/ && npx postcss src/css/*.css --base src --dir build"
   },
   "repository": {
     "type": "git",
