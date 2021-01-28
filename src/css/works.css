@@ -908,6 +908,20 @@ p.indexb {
   text-indent: 0em;
 }
 
+/* migrated from /archive/css/works-red.css */
+
+/* Describes the chapter (as seen in the History, Subject indexes, etc) */
+td.note {
+  background: transparent;
+  color: #444444;
+  font-family : "Arial", sans-serif;
+  font-size: small;
+  line-height: 115%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
 /*
  * =====================================
  * Adjustments for Mobile Devices
