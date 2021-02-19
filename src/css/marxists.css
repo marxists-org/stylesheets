@@ -1,0 +1,32 @@
+/* This style is a slight variation on works.css  	*/
+@import url("works.css");
+
+div.border { border: #99bb99 }
+H1 { font-size: 32pt }
+H2 { font-size: 26pt }
+
+p.information { font-size: 12pt; color: #000033 }
+
+hr.section { width: 44% }
+
+em { word-spacing: 0.2em }
+
+p.linkback {
+ text-indent: 0em;
+ font-family: sans-serif;
+ font-size: 11pt;
+ text-align: center;
+}
+
+p.tob {
+ text-indent: 0em;
+ font-weight: bold;
+ font-family : "Arial", "Helvetica", sans-serif;
+ font-size: 11pt;
+ line-height: 140%;
+ text-align: left;
+ margin-left: 9%;
+ margin-right: 9%;
+}
+
+

@@ -1,0 +1,39 @@
+@import url("works.css");
+
+body { background : #cccccc }
+a:link { color: #25383C }
+a:visited { color: #25383C }
+
+div.border {
+	width: 93%; 
+	border: 0.5em solid #660000;
+	}
+
+p.toc { color: #25383C }
+p.information { color: #25383C }
+p.pagenote { color: #25383 }
+
+H1 {color: #000033 }
+H1.big {color: #000033 }
+H2  {color: #000033 }
+H3  {color: #000033 }
+H4  {color: #000033 }
+H5  {color: #000033 } 
+H6  {color: #000033 } 
+
+hr.section { color: #660000 }
+hr.base { color: #000000 }
+hr.end { color: #660000 }
+hr { color: #660000 }
+
+sup.anote { color: #25383c }
+sup.ednote { color: #25383c }
+sup.enote { color: #000033; font-size: small; 
+	font-family : "helvetica", "arial", sans-serif; }
+span.info { color: #25383C }
+span.term { color: #25383C }
+
+@media (max-width: 480px) {
+  div.border { width: 95%; padding: 0.5em; 
+  border: 0.2em solid #99bb99; }
+

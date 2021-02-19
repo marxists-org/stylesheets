@@ -1,0 +1,141 @@
+/* Relocated from /archive/css/  				*/
+/* variation on works-rd.css with border		*/
+@import url("works-rd.css");
+
+body { background : #660000 }
+a.title:link { color: #FFCC00; background: transparent; text-decoration: none }
+a.title:visited { color: #CC9900; background: transparent; text-decoration: none }
+
+hr { width: 97%; text-align: center; height: 2px; }
+hr.span { width: 100%; color: #ffcc33; text-align: center; height: 3px; }
+hr.end { height: 2px; }
+
+div.border {
+	border-style: double;
+	background: #ffffff; 
+	width: 85%; 
+	padding: 1em; 
+	border: 0.5em solid #ffcc33;
+	}
+
+H1 {
+ color: #660000;
+ }
+
+H2 { 
+ color: #660000;
+ }
+
+H3 {
+ color: #660000; 
+ }
+ 
+H4 {
+ color: #660000; 
+ }
+ 
+H5 {
+ color: #660000; 
+ }
+ 
+/* Sub Section 3 */
+H6 {
+ color: #660000; 
+ }
+
+/* Paragraph styles  		*/
+
+p.index { 
+ font-family : "Arial", sans-serif;
+ line-height: 150%;
+ margin-left: 6%;
+ margin-right: 6%;
+}
+
+p.title { 
+ color: ##ffcc00;
+ text-align: left;
+ font-size: 9pt;  
+ }
+ 
+p.toc {
+ color: #660000; 
+ margin-left: 4%;
+ margin-right: 4%;
+}
+
+p.information { 
+ color: #660000; 
+ }
+
+p.sig {  
+ font-size: 12pt; 
+ font-weight: bold;
+ }
+  
+p.pagenote {
+ color: #660000; 
+ }
+
+/* ~~~~~~~ Footnotes ~~~~~~~~~~~~~~~~~~ */
+
+sup.anote {
+ color: #660000; 
+ }
+ 
+sup.ednote {
+ color: #660000; 
+ }
+
+span.info {
+ color: #660000; 
+}
+
+span.term {
+ color: #660000; 
+}
+
+ 
+/*----------------------------------*/
+/* Table elements 					*/
+/*----------------------------------*/
+
+td.index {
+ color: #440000; 
+ text-indent: 0em;
+ font-family : "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+ text-align: left;
+}
+
+td.note {
+ text-align: left;
+ text-indent: 2em;
+ color: #444466;
+ font-family: "Arial Narrow", "Arial", sans-serif;
+ font-size: 10pt;
+ line-height: 125%;
+ }
+
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  blockquote {margin-left: 1%; margin-right: 1%; }
+  p.title { font-size: 11pt; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 16pt; }
+  h2 { font-size: 15pt; }
+  h3 { font-size: 14pt; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  img { width: 150px; height: auto; }
+  img.auto {width: auto ; height: auto; }
+  div.border { width: 95%; padding: 0.5em; border: 0.2em solid #ffcc33; }
+}

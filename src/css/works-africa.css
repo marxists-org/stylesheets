@@ -1,0 +1,25 @@
+@import url("works.css");
+a:link { color: #006600 }
+a:visited { color: #336633 }
+
+div.border { border: #000088; }
+H1 { color: #000033 }
+H1.medium { color: #000033 }
+H1.big { color: #000033 }
+H2 { color: #000033 }
+H3 { color: #000033 }
+H4 { color: #000033 }
+H5 { color: #000033 }
+H6 { color: #000033 }
+
+p.toc { color: #003300 }
+p.information { color: #660000 }
+p.pagenote { color: #666666 }
+
+sup.anote { color: #003300 }
+sup.ednote { color: #003300 }
+sup.enote { color: #003300 }
+
+span.info { color: #660000 }
+span.term { color: #003300 }
+ 

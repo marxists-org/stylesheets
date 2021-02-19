@@ -1,0 +1,54 @@
+@import url("border.css");
+
+body { background : #555588 }
+a:link { color: #0000aa }
+a:visited { color: #3333aa }
+a.title:link { color: #00ccff }
+a.title:visited { color: #0099ff }
+a.mecw {color: #999999; background: transparent; text-decoration: none }
+
+div.border {
+	width: 93%; 
+	border: 0.5em solid #ffffbb;
+	}
+
+blockquote { margin-left: 5% }
+
+p.title { color: #ffffbb }
+p.toc { color: #000066; margin-left: 6%; margin-right: 6% }
+p.pagenote { color: #000066 }
+p.information { color: #000066; margin-left: 6%; margin-right: 6% }
+p.index { margin-left: 6%; margin-right: 6% }
+p.footer { margin-left: 6%; margin-right: 6% }
+
+p.indexd {
+ color: #444488; 
+ text-indent: -1em;
+ font-size: 10pt;
+ text-align: left;
+ margin-left: 14%;
+ }
+ 
+H1 {color: #000066; font-size: xx-large }
+H1.big {color: #000066; font-size: 28pt }
+H2  {color: #000066; font-size: large }
+H3  {color: #000066 }
+H4  {color: #000066 }
+H5  {color: #000077 }
+H6  {color: #000077 }
+
+hr.section { color: #660000 }
+hr.base { color: #000000 }
+hr.end { color: #660000 }
+hr { color: #660000 }
+
+sup.anote { color: #000066 }
+sup.ednote { color: #000066 }
+span.info { color: #000066 }
+span.term { color: #000066 }
+
+@media (max-width: 480px) {
+  div.border { width: 95%; padding: 0.5em; 
+  border: 0.2em solid #ffffbb }
+}
+

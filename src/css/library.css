@@ -1,0 +1,74 @@
+/* =============================================*/
+
+/* Used in various Subject indexes across MIA	*/
+/* e.g. https://www.marxists.org/subject/women/feminists.htm */
+/* =============================================*/
+
+@import url("border.css");
+
+body { background : #000055 }
+a:link { color: #330099 }
+a:visited { color: #333399 }
+a.title:link { color: #ffcc99 }
+a.title:visited { color: #ffcc33 }
+
+div.border {
+	width: 93%; 
+	border: 0.5em solid #5533aa;
+	}
+
+p.title { color: #ffcc00 }
+p.toc { color: #330000 }
+p.information { color: #330000 }
+p.pagenote { color: #330000 }
+p.bubble {
+font-family: tahoma;
+  line-height: 125%; font-size: 8pt; 
+  color: #555588; 
+  margin-left: 5%; 
+  margin-right: 1%; 
+  text-align: right;
+}
+
+H1 {color: #205000; font-size: x-large;
+ font-family: "Century Gothic", "Arial", sans-serif }
+H1.big {color: #205000; font-size: 28pt }
+H2  {color: #330000; font-size: large }
+H3  {color: #330000; font-size: 36pt }
+H4  {color: #330000 }
+H5  {color: #330000 }
+H6  {color: #330000; line-height: 175%; margin-left: 24px }
+
+hr.section { color: #330000 }
+hr.base { color: #000000 }
+hr.end { color: #330000 }
+hr { color: #000033 }
+
+sup.anote { color: #330000 }
+sup.ednote { color: #330000 }
+span.info { color: #330000 }
+span.term { color: #330000 }
+
+span.author { 
+ font-family: "Arial", sans-serif; 
+ line-height: 130%;
+ font-size: 12pt; 
+ font-weight: bold; 
+ } 
+span.year {
+ font-family: "Arial", sans-serif; 
+ font-size: 9pt;
+ line-height: 115%;
+}
+span.subgroup { 
+ font-family: "Arial", sans-serif; 
+ line-height: 200%;
+ font-size: 12pt; 
+ font-weight: bold; 
+} 
+
+
+@media (max-width: 480px) {
+  div.border { width: 95%; padding: 0.5em; 
+  border: 0.2em solid #5533aa; }
+}

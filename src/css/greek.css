@@ -1,0 +1,268 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=greek);
+html,body   
+{ 
+    padding: 0;
+	border: 0;
+	font-family: verdana;
+	vertical-align: baseline;
+    margin:0; 
+    
+	width:100%;
+	background: url(../ellinika/images/bg.png);
+	}
+
+body{
+
+min-height:100%;
+}	
+#wrapper{
+position:relative;
+  margin:50px auto; 
+  width:80%;
+  min-height:100%;
+  background-color:#fff;
+
+  border:1px dashed #e0d2b6;
+  border-radius:10px; 
+-webkit-box-shadow: 0px 0px 41px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 41px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 41px -10px rgba(0,0,0,0.75);
+overflow:hidden;
+}
+
+
+#header{
+float:left;
+height:5%;
+width:100%;
+padding-left: 15px;
+top:0px;
+/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom left, #FFFFFF 0%, #8C857E 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom left, #FFFFFF 0%, #8C857E 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom left, #FFFFFF 0%, #8C857E 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0, #FFFFFF), color-stop(1, #8C857E));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom left, #FFFFFF 0%, #8C857E 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to top right, #FFFFFF 0%, #8C857E 100%);
+}
+
+.information{
+float:left;
+top:5%;
+height:3%;
+width:100%!important;
+clear:both;
+background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(201,201,201,0.65) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(201,201,201,0.65))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(201,201,201,0.65) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(201,201,201,0.65) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(201,201,201,0.65) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(201,201,201,0.65) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6c9c9c9',GradientType=1 ); /* IE6-9 */
+font-size: 11px;
+
+padding: 4px 0px 4px 14px ;
+}
+
+
+
+
+
+
+
+#text{
+
+ float:left; 
+  top:6%;
+ height:80%;
+
+width:95%;
+padding-top:20px;
+margin-left:2%;
+
+}
+.clear{
+
+clear:both;
+}
+
+a:link 
+{ 
+	color: #FF9900; 
+	text-decoration:none;  
+}
+
+a:visited { 
+	color: #FF9900; 
+	text-decoration:none; 
+}
+
+a:hover  , a:active
+{ 
+	color:#CC3300; 
+	text-decoration:none; 
+}
+
+/* .letter { color: black; font-weight: bold; font-size: 28pt }
+.inote { color: teal; font-weight: normal; font-size: 10pt }
+
+
+blockquote { color: black; font-size: 11pt; text-align: justify; text-indent: 0; margin-right: 7%; margin-left: 7% }
+blockquote p { text-align: left; text-indent: 0 }
+ */
+
+h1    {
+	font-family: 'Ubuntu Condensed', 'sans-serif';
+	font-size : 28pt;
+    color :#915151;
+	text-align : left;
+}
+
+h2     {
+	font-family: 'Ubuntu Condensed', 'sans-serif';
+	font-size : 20pt;
+	color :#003366;
+    text-align : left;
+}
+
+h3     {
+	font-family: 'Ubuntu Condensed', 'sans-serif';
+	font-size : 18pt;
+	color :#003366;
+    text-align : left;
+}
+
+h4     {
+	font-size : 14pt;
+    text-align : center;
+}
+
+h5     {
+	font-size : 12pt;
+    text-align : center;
+}
+
+h6     {
+	font-size : 11pt;
+    text-align : center;
+}
+
+   
+p {
+
+	 color: black;
+	 font-size: 12pt;
+	 text-align: justify;
+	 font-family: verdana; 
+ 
+ }
+ 
+ul { 
+	color: black; 
+	font-size: 12pt; 
+	text-align: justify; 
+	font-family: verdana;  
+}
+
+ol { 
+	color: black; 
+	font-size: 12pt; 
+	text-align: justify; 
+	font-family: verdana; 
+}
+
+span 
+{ 
+    color: grey;
+	font-family: arial; 
+	font-size: 11pt ;
+}
+
+
+.anote{
+font-size: 10px;
+}
+
+#notes *{
+
+float:left;
+font-size:10pt;
+margin: 20px 80px;
+
+}
+
+
+
+footer{
+position:relative;
+height:80px;
+
+}
+footer ul{
+display: block; 
+text-align:center;
+list-style-type: none;
+margin: 0 auto!important;
+
+}
+footer li{
+display: inline-block; 
+margin-right: 5px;
+font-size:11px;
+padding-top:15px;
+}
+#footerimg {
+position: absolute;
+bottom: 10px;
+right:15px;
+opacity:0.4;
+
+
+}
+
+#footerimg:hover {
+position: absolute;
+bottom: 10px;
+right:15px;
+opacity:1;
+
+}
+
+.crubs{
+font-size:11px !important ;
+
+margin:10px;
+}
+
+
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 18pt; margin-left: 1%; margin-right: 1%; }
+  h2 { font-size: 16pt; margin-left: 1%; margin-right: 1%; }
+  h3 { font-size: 14pt; margin-left: 1%; margin-right: 1%; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  img { width: 150px; height: auto; }
+  img.auto {width: auto ; height: auto; }
+  blockquote {margin-left: 1%; }
+}

@@ -1,0 +1,57 @@
+@import url("modern.css");
+
+
+.verse {
+  margin-left: 10%;
+}
+.chorus {
+  margin-left: 40%;
+}
+
+.verse  .line, .chorus .line {
+	display: block;
+}
+.verse  .inset-line, .chorus .inset-line {
+	display: block;
+  margin-left: 1em;
+}
+.verse  .double-inset-line, .chorus .double-inset-line {
+	display: block;
+  margin-left: 2em;
+}
+.verse  .treble-inset-line, .chorus .treble-inset-line {
+	display: block;
+  margin-left: 3em;
+}
+	
+.comment {
+    color: #822;
+}
+
+.signature {
+        text-align: right;
+}
+
+.pagenum {
+	float: right; 
+	margin-left: 2em; 
+	margin-right: 5px;
+	font-size: 100%; 
+	color: #999; 
+	font-style: italic; 
+	}
+
+p span.change {
+  background-color: #eee;
+  }
+
+p span.redact {
+  background-color: black;
+  }
+
+hr.short {
+  margin-right: 40%; 
+  margin-left: 40%; 
+  width: auto;
+}
+

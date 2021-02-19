@@ -1,0 +1,258 @@
+/* =============================================*/
+/* Book and work indexes for works 				*/
+/*		written  before 1841					*/
+/* 27/05/2002            						*/
+/* by Andy Blunden                              */
+/*     http://www.marxists.org/archive/css/     */
+/* =============================================*/
+
+body { background : #660022 }
+a:link { color: #aa0033; background : transparent }
+a:visited { color: #773333; background : transparent }
+
+img.center { text-align: center }
+img.right { float: right; margin-right: 4% }
+
+hr.end { width: 96%; text-align: center; height: 2px; }
+hr.section { width: 44%; text-align: center; height: 2px; }
+
+/* =====================================*/
+
+/* For the border effect */
+div.border {
+	border-style: double;
+	background: #ffffff; 
+	width: 93%; 
+	padding: 1em; 
+	border: 0.5em solid #eecc00;
+	}
+	
+H1 { 
+ text-indent: 0em; 
+ color: #660000;
+ font-weight: bold; 
+ font-size: 26pt; 
+ font-family: "garamond", "bookman old style", "times", serif;
+ text-align: center; 
+ }
+ 
+H2 { 
+ color: #660000;
+ font-weight: bold; 
+ font-size: 18pt; 
+ font-family: "Bangle", "bookman old style", "garamond", serif;
+ text-align: center; 
+ }
+ 
+H3 { 
+ color: #660033;
+ font-weight: normal; 
+ font-size: 16pt; 
+ font-family:"garamond", "bookman old style", "times", serif;
+ text-align: center; 
+ }
+ 
+H4 { 
+ color: #660022;
+ font-weight: bold; 
+ font-size: 14pt; 
+ font-family:  "Arial Narrow", sans-serif;
+ text-align: left; 
+ margin-left: 36px;
+ margin-right: 36px;
+ }
+ 
+ 
+/* =====================================*/
+
+span.book {
+ color: #880066;
+ font-family: "Helvetica", "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+ }
+ 
+span.date {
+ color: #884444;
+ font-family: "Helvetica", "Arial", sans-serif;
+ font-size: 10pt;
+ }
+
+/* =====================================*/
+
+/* Contents heading */
+p.toc {
+ color: #880066; 
+ text-indent: 0em;
+ font-weight: bold;
+ font-family : "Arial", sans-serif;
+ font-size: 14pt;
+ line-height: 125%;
+ text-align: left;
+ margin-left: 28px;
+}
+
+
+/* single document list */
+p.index  {
+ color: black; 
+ text-indent: 0em;
+ font-family : "Times", serif;
+ font-size: 12pt;
+ font-weight: normal;
+ text-align: left;
+ line-height: 150%;
+ margin-left: 36px;
+}
+
+/* book list with description underneath */
+/* primarily used with a p.note to follow */
+p.index-list {
+ color: #880066; 
+ text-indent: 0em;
+ font-family : "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+ text-align: left;
+ line-height: 90%;
+ margin-left: 36px;
+}
+/*----------------------------------*/
+
+td.index  {
+ color: black; 
+ text-indent: 0em;
+ font-family : "Times", serif;
+ font-size: 12pt;
+ font-weight: normal;
+ text-align: left;
+}
+
+tr.shade  {
+ background: #efefef;
+}
+
+td.size {
+ color: #880066; 
+ text-indent: 0em;
+ font-family : "Times", serif;
+ font-size: 12pt;
+ font-weight: normal;
+ text-align: right;
+}
+
+/*----------------------------------*/
+ 
+/* Page header, outside the Table */
+p.title { 
+ color: white; 
+ text-indent: 0em; 
+ font-weight: bold;
+ font-family : "Arial", sans-serif;
+ font-size: 12pt; 
+ text-align: left; 
+ margin-left: 28px;
+ line-height: 100%;
+ }
+ 
+p {
+ color: black; 
+ text-indent: 0em;
+ font-family : "Times", serif;
+ font-size: 12pt;
+ font-weight: normal;
+ text-align: justify;
+ line-height: 125%;
+ margin-left: 52px;
+ margin-right: 36px;
+}
+ 
+/* Description of an index-list */
+p.note {
+ color: #880066; 
+ text-indent: 0em;
+ font-family : "Arial", "Geneva", "Courier", sans-serif;
+ font-size: x-small;
+ font-weight: normal;
+ text-align: justify;
+ line-height: 125%;
+ margin-left: 48px;
+ margin-right: 48px;
+}
+
+p.pagenote {
+ background: transparent;
+ color: #886666; 
+ font-family : "Arial", sans-serif;
+ font-size: x-small;
+ text-align: center;
+ line-height: 115%;
+ margin-left: 10%;
+ margin-right: 10%;
+ }
+ 
+p.pagenoteb {
+ background: transparent;
+ color: #886666; 
+ font-family : "Arial", sans-serif;
+ font-size: x-small;
+ text-align: justify;
+ line-height: 115%;
+ margin-left: 10%;
+ margin-right: 10%;
+ }
+
+p.skip
+ { line-height: 50% }
+
+p.footer { 
+ color: #330000; 
+ text-indent: 0em; 
+ font-weight: bold;
+ font-family : "Arial", sans-serif;
+ font-size: 12pt; 
+ text-align: center; 
+ line-height: 150%;
+ }
+ 
+ /* Document Bibliographical Informaiton */
+p.information { 
+ background: transparent;
+ color: #880066; 
+ text-indent: 0em; 
+ font-size: 12pt; 
+ font-family : "Times", serif;
+ line-height: 125%;
+ text-align: left;
+ margin-right: 8%; 
+ margin-left: 8% 
+ }
+span.info {
+ background: transparent;
+ color: #880066; 
+ font-family: "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+}
+
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  blockquote {margin-left: 1%; margin-right: 1%; }
+  p.title { font-size: 11pt; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 16pt; }
+  h2 { font-size: 15pt; }
+  h3 { font-size: 14pt; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  img { width: 150px; height: auto; }
+  img.auto {width: auto ; height: auto; }
+  div.border { width: 95%; padding: 0.5em; border: 0.2em solid #ffcc33; }
+}

@@ -1,0 +1,197 @@
+/* #### Main */
+/* ########################################################################## */
+html {
+	background-color: #EEE;
+}
+
+body {
+	background-color: #FFF;
+
+	max-width: 1080px; /* don't allow the body to keep growing wider on large screens */
+	margin: 0px auto; /* center the body, and make it flush with the top of the viewport */
+}
+
+/* Media queries are CSS statements that allow us to query the device the
+ * user is viewing the page on, and apply styles according to the screen width,
+ * or whether the device is in portrait or landscape mode, etc.
+ * 
+ * Here, we apply larger padding on larger screens, and smaller padding on
+ * smaller screens. */
+
+/* Mobile media query */
+@media (max-width: 768px) {
+	header, section, nav {
+		padding: 0.75em 1.25em;
+	}
+}
+
+/* Desktop media query */
+@media (min-width: 768px) {
+	header, section, nav {
+		padding: 1.5em 2.5em;
+	}
+}
+
+/* #### Links */
+/* ########################################################################## */
+a:link {
+	color: #aa0000;
+}
+
+a:visited {
+	color: #993333;
+}
+
+/* #### Headings */
+/* ########################################################################## */
+h1 { font-size: 32px; font-weight: normal; }
+h2 { font-size: 28px; font-weight: normal; }
+h3 { font-size: 24px; font-weight: normal; }
+h4 { font-size: 20px; font-weight: normal; }
+h5 { font-size: 16px; font-weight: bold;   }
+
+h1, h2, h3 { 
+	margin-top:    0.5em;
+	margin-bottom: 0.5em;
+}
+
+h4, h5 {
+	margin-top:    1em;
+	margin-bottom: 1em;
+}
+
+/* #### Text */
+/* ########################################################################## */
+blockquote {
+	padding-left: 1.5em;
+	margin-left:  0px;
+	margin-right: 0px;
+
+	border-width: 0px 0px 0px 0.5em;
+	border-color: #CCC;
+	border-style: solid;
+}
+
+.inote {
+	font-size: 14px;
+	color: #888;
+}
+
+/* Mobile media query */
+@media (max-width: 768px) {
+	p, blockquote, ol, ul, dl {
+		font-size:   15px;
+		line-height: 27px;
+	}
+	.smallcaps { font-size: 0.75rem }
+    dt { font-weight: bold; }
+}
+
+/* Desktop media query */
+@media (min-width: 768px) {
+	p, blockquote, ol, ul, dl {
+		font-size:   16px;
+		line-height: 29px;
+	}
+	.smallcaps { font-size: 0.75rem }
+    dt { font-weight: bold; }
+}
+
+/* ########################################################################## */
+.header-title {
+	background-color: #FFF;
+	text-align: center;
+
+	border-width: 1em 0px 0px 0px;
+	border-color: #900;
+	border-style: solid;
+}
+
+.header-info, .header-chapter {
+	background-color: #DDD;
+
+	border-width: 0.5em 0px 0.5em 0px;
+	border-color: #CCC;
+	border-style: solid;
+}
+
+.header-info > ul {
+	list-style-type: none;
+	padding: 0px;
+	margin:  0px;
+}
+
+.header-chapter {
+	text-align: center;
+}
+
+/* ########################################################################## */
+.article-contents {
+
+}
+
+.article-main {
+
+}
+
+.article-notes {
+	border-width: 0.5em 0px 0px 0px;
+	border-color: #CCC;
+	border-style: solid;
+}
+
+/* ########################################################################## */
+nav {
+	background-color: #DDD;
+	text-align: center;
+
+	border-width: 0.5em 0px 0px 0px;
+	border-color: #CCC;
+	border-style: solid;
+}
+
+/* ########################################################################## */
+/* Print behaviour */
+
+@media print { 
+
+  * { 
+  	background: transparent !important; 
+  	/* Browsers mangle greys in print: h5bp.com/s */
+ 	color: black !important; 
+  	text-shadow: none !important; 
+  	filter:none !important; 
+  	-ms-filter: none !important; 
+  }
+ 
+  a, a:visited { text-decoration: underline; }
+
+  /* print link locations */
+  a[href]:after { content: " (" attr(href) ")"; }
+
+  abbr[title]:after { content: " (" attr(title) ")"; }
+
+  /* Don't show links for images, or javascript/internal links */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { 
+  	content: ""; 
+  }
+  
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+
+  /* repeat table headers across pages: h5bp.com/t */
+  thead { display: table-header-group; } 
+
+  tr, img { page-break-inside: avoid; }
+
+  img { max-width: 100% !important; }
+
+  @page { margin: 0.5cm; }
+
+  p, h2, h3 { orphans: 3; widows: 3; }
+
+  h2, h3 { page-break-after: avoid; }
+
+  .break { page-break-before: always; }
+
+}
+

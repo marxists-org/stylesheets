@@ -1,0 +1,45 @@
+@import url("border.css");
+
+body { background : #003300 }
+a:link { color: #006600; }
+a:visited { color: #336633; }
+a.title:link { color: #669999; }
+a.title:visited { color: #336666 }
+a.mecw:link {color: #888888; }
+a.mecw:visited {color: #999999; }
+
+div.border {
+	width: 93%; 
+	border: 0.5em solid #669966;
+	}
+
+p.title { color: #ffcc00 }
+p.toc { color: #003300; line-height: 150%; margin-left: 6%; margin-right: 6% }
+p.information { color: #003300 }
+p.pagenote { color: #003300 }
+p.index { margin-left: 6%; margin-right: 6%}
+
+H1 {color: #003300; font-size: xx-large }
+H1.big {color: #003300; font-size: 28pt }
+H2  {color: #003300; font-size: large }
+H3  {color: #003300; font-size: 20pt }
+H4  {color: #003300; font-size: 14pt }
+H5  {color: #003300; text-align: left; line-height: 150% }
+H6  {color: #003300; font-size: 14pt; line-height: 150% }
+H7  { line-height: 50% }
+
+hr.section { color: #005500; }
+hr.base { color: #000000; }
+hr.end { color: #003300; }
+hr { color: #003300; }
+
+sup.anote { color: #003300 }
+sup.ednote { color: #003300 }
+span.info { color: #003300 }
+span.term { color: #003300 }
+
+@media (max-width: 480px) {
+  div.border { width: 95%; padding: 0.5em; 
+  border: 0.2em solid #669966; }
+}
+

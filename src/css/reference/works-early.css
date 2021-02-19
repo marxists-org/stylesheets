@@ -1,0 +1,509 @@
+/* =====================================*/
+/* documents written before 1841        */
+/* =====================================*/
+
+body { background : white; color: black }
+a:link { color: #aa0033; background : transparent }
+a:visited { color: #773333; background : transparent }
+
+img.right { float: right; margin: 2em; }
+img.left { float: left; margin: 2em; }
+
+hr.section { width: 50%; height: 2px; }
+hr.base { width: 92%; height: 1px; }
+hr.end { width: 80%; height: 1px; }
+
+em { word-spacing: 0.2em }
+blockquote { margin-left: 9% }
+
+
+/* Basic p */
+p {
+ text-indent: 1em;
+ font-family : "Georgia", serif;
+ font-size: 12pt;
+ text-align: justify;
+ line-height: 150%;
+ margin-left: 6%;
+ margin-right: 6%;
+ }
+ 
+/* =====================================*/
+/* Document Headers			    */
+/* =====================================*/
+
+/* Document Title */
+H1 {
+ background: transparent;
+ color: #660000;
+ font-weight: normal; 
+ font-size: 26pt; 
+ font-family: "Hoefler Text", "Century Schoolbook", "Times";
+ text-align: center; 
+ margin-left: 30px;
+ margin-right: 30px;
+ }
+
+/* Authors' name */
+H2 { 
+ background: transparent;
+ color: #660000;
+ font-weight: normal; 
+ font-size: 18pt; 
+ line-height: 150%;
+ font-family: Bookman Old style;
+ text-align: center; 
+ margin-left: 12px;
+ margin-right: 12px;
+}
+
+/* Chapter Title */
+H3 {
+ background: transparent;
+ color: #660033; 
+ font-weight: bold;
+ text-align: center;
+ font-family: "garamond", "bangle", serif;
+ font-size: 16pt; 
+ margin-left: 10%;
+ margin-right: 10%;
+ }
+ 
+/* Section Title */
+H4 {
+ background: transparent;
+ color: #660022; 
+ font-weight: bold;
+ text-align: center;
+ font-family : "Arial Narrow", sans-serif;
+ font-size: 14pt;  
+ line-height: 150%;
+ margin-left: 10%;
+ margin-right: 10%;
+ }
+ 
+/* Sub Section 2 */
+H5 {
+ background: transparent;
+ color: #770000; 
+ font-weight: bold;
+ text-align: center;
+ font-family : "Arial Narrow", sans-serif;
+ font-size: 12pt;  
+ line-height: 150%;
+ margin-left: 12%;
+ margin-right: 12%;
+ }
+ 
+/* Sub Section 3 */
+H6 {
+ background: transparent;
+ color: #880000; 
+ font-weight: bold;
+ text-align: left;
+ font-family : "Arial Narrow", sans-serif;
+ font-size: 12pt;  
+ line-height: 150%;
+ margin-left: 15%;
+ margin-right: 15%;
+ }
+
+ 
+/* ~~~~~~~ Footnotes ~~~~~~~~~~~~~~~~~~ */
+
+/* Author's */
+sup.anote {
+ background: transparent;
+ color: #660066; 
+ font-family : "Times", serif;
+ font-size: x-small;
+ font-weight: bold;
+ text-decoration: none;
+ }
+ 
+/* Editor's */
+sup.ednote {
+ background: transparent;
+ color: #660066; 
+ font-family : "Courier New", monospace;
+ font-size: x-small;
+ font-weight: normal;
+ text-decoration: none;
+ }
+ 
+sup.enote {
+ background: transparent;
+ font-family : "arial", sans-serif;
+ font-size: 10pt;
+ font-weight: normal;
+ text-decoration: none;
+ }
+/* Editorial notes in text */
+span.inote {
+ background: transparent;
+ color: #666666; 
+ font-family : "Times New Roman", serif;
+ font-size: 12pt;
+ font-weight: normal;
+ }
+ 
+/* Used in the info block */
+span.info {
+ background: transparent;
+ color: #880000; 
+ font-family: "Arial Narrow", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+}
+
+/* indiscreet text (primarily for dates) */
+span.date {
+ background: transparent;
+ color: #660000;
+ font-weight: bold;
+ }
+
+/* Used for notes in the text */
+span.term {
+ background: transparent;
+ color: #c00000; 
+ font-family : "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+}
+
+span.greek {
+ font-family: symbol;
+}
+
+/* abstracts */
+span.context {  background: transparent; color: #999999 }
+
+
+/* Basic p -- without first line indent */
+p.fst {
+ text-indent: 0em;
+ }
+
+
+/* Standard Quote */
+p.quote { 
+ text-indent: 1em;
+}
+
+/* Quote without first line indent */
+p.quoteb { 
+ text-indent: 0em;
+ font-size: 10pt;
+ line-height: 135%;
+ margin-left: 12%;
+ margin-right: 8%;
+}
+
+/* Sub Quote C (increased margin) */
+p.quotec { 
+ text-indent: 0em;
+ font-size: 10pt;
+ margin-left: 16%;
+ margin-right: 8%;
+}
+
+/* Negative indent for number list */
+p.quote-list { 
+ text-indent: -1em;
+ font-size: 10pt;
+ margin-left: 14%;
+ margin-right: 8%;
+}
+
+
+/* Citation (Quote citied) */
+p.inline {
+ background: transparent;
+ color: #666666; 
+ text-indent: 0em;
+ font-family : "Arial", sans-serif;
+ font-size: x-small;
+ text-align: right;
+ margin-left: 20%;
+ margin-right: 8%;
+ }
+
+ 
+
+/*----------------------------------*/
+/* Index elements 					*/
+/*----------------------------------*/
+
+/* Table of Contents */
+p.toc {
+ color: #550000; 
+ text-indent: 0em;
+ font-weight: bold;
+ font-family : "Helvetica", "Arial", sans-serif;
+ line-height: 135%;
+ text-align: left;
+}
+
+/* Basic Index */
+p.index { 
+ text-indent: 0em;
+ font-family : "Helvetica", "Arial", sans-serif;
+ font-weight: bold;
+ text-align: left;
+ line-height: 200%;
+}
+
+/*----------------------------------*/
+/* Table elements 					*/
+/*----------------------------------*/
+
+table.data {
+ background: #eeeeee;
+ vertical-align: top;
+ font-family: "Times New Roman", monospace;
+ font-size: 10pt;
+ }
+
+ tr {
+ vertical-align: top;
+ }
+ 
+/* Column Headings */ 
+td.head {
+ background: #999999;
+ font-weight: bold;
+ text-align: center;
+ font-family: "Times New Roman", serif;
+ font-size: 12pt;
+ }
+
+tr.alt { background: #cccccc; }
+tr.total { background: #ffcccc; }
+tr.totalb { background: #ff9999; }
+
+td.text {
+ background: #ffffff;
+ color: #000000; 
+ text-indent: 0em;
+ font-family: Times New Roman;
+ font-size: 12pt;
+ font-weight: normal;
+ text-align: left;
+ }
+ 
+td.num {
+ vertical-align: top;
+ text-indent: 0em;
+ text-align: right;
+ font-family: Times New Roman;
+ font-size: 12pt;
+ }
+
+td.small {
+ vertical-align: top;
+ text-indent: 0em;
+ text-align: left;
+ font-family: Times New Roman;
+ font-size: 10pt;
+ }
+
+td.smallnum {
+ vertical-align: top;
+ text-indent: 0em;
+ text-align: right;
+ font-family: Times New Roman;
+ font-size: 10pt;
+ }
+
+td.index {
+ background: #efefef;
+ color: #999999; 
+ text-indent: 0em;
+ font-family : "Helvetica", "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+ text-align: left;
+ }
+ 
+/* Every alternate row */
+td.index-alt {
+ background: #ffffff;
+ color: #999999; 
+ text-indent: 0em;
+ font-family : "Helvetica", "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+ text-align: left;
+ }
+ 
+/* Sub-Chapters */
+td.indexb {
+ background: #ffffff;
+ color: #999999; 
+ text-indent: 0em;
+ font-family : "Helvetica", "Arial", sans-serif;
+ font-size: 10pt;
+ font-weight: normal;
+ text-align: left;
+ }
+
+/*----------------------------------*/
+/* Indented Text                    */
+/*----------------------------------*/
+
+/* Standard Indent */
+p.indent { 
+ margin-left: 12%;
+ margin-right: 8%;
+}
+
+/* Indent without first line indent */
+p.indentb { 
+ text-indent: 0em;
+ margin-left: 12%;
+ margin-right: 8%;
+}
+
+/* Sub Indent C (increased margin) */
+p.indentc { 
+ text-indent: 0em;
+ margin-left: 16%;
+ margin-right: 8%;
+}
+
+/* Negative indent for number list */
+p.indent-list { 
+ text-indent: -1em;
+ margin-left: 12%;
+ margin-right: 8%;
+}
+ 
+ul.disc { 
+ font-family: "Georgia", serif;
+ font-size: 12pt;
+ list-style-type: disc; 
+ text-align: left;
+ line-height: 130%;
+ margin-left: 8%;
+ margin-right: 6%;
+}
+
+ol.numbered { 
+ font-family: "Georgia", serif;
+ font-size: 12pt;
+ list-style-type: decimal; 
+ text-align: left;
+ line-height: 130%;
+ margin-left: 8%;
+ margin-right: 6%;
+}
+
+/* Book title for Chapter files */
+p.title { 
+ text-indent: 0em;
+ font-weight: bold;
+ text-align: center;
+ margin: 1%;
+ font-family : "Arial", sans-serif;
+ }
+
+/* Document Bibliographical Information */
+p.information { 
+ color: #880022; 
+ text-indent: 0em; 
+ font-size: 11pt; 
+ line-height: 125%;
+ text-align: left;
+ }
+
+/* Signature */
+p.sig {  
+ text-indent: 0em; 
+ font-family : "Vivaldi", script, serif;
+ font-size: 16pt; 
+ font-style: italic;
+ line-height: 125%;
+ text-align: left; 
+ }
+  
+sup {
+ font-family : "Arial", monospace;
+ font-size: 10pt;
+ font-weight: normal;
+ }
+ 
+sub {
+ font-family : "Arial", monospace;
+ font-size: 10pt;
+ font-weight: normal;
+ }
+ 
+/* Misc page note */
+p.pagenote {
+ color: #660066; 
+ font-family : "Arial", sans-serif;
+ font-size: x-small;
+ text-align: center;
+ }
+ 
+/* Misc page note (justified) */
+p.pagenoteb {
+ color: #666666; 
+ font-family : "Arial", sans-serif;
+ font-size: x-small;
+ line-height: 115%;
+ }
+ 
+/* For blank spaces */
+p.skip { line-height: 75% }
+ 
+ 
+/*----------------------------------*/
+/* Page-ending elements             */
+/*----------------------------------*/
+
+/* Next Section-Chapter of work */
+p.next { 
+ text-indent: 0em;
+ font-family : "Arial", sans-serif;
+ font-weight: bold;
+ text-align: center;
+ }
+ 
+/* Page bottom links */
+p.footer {  
+ color: #440000; 
+ text-indent: 0em; 
+ font-weight: bold;
+ font-family : "Arial Narrow", sans-serif;
+ font-size: 14pt; 
+ text-align: center; 
+ }
+
+
+/* =====================================*/
+/* End of usable elements               */
+/* =====================================*/
+
+
+
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 18pt; margin-left: 1%; margin-right: 1%; }
+  h2 { font-size: 16pt; margin-left: 1%; margin-right: 1%; }
+  h3 { font-size: 14pt; margin-left: 1%; margin-right: 1%; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  img { width: 150px; height: auto; }
+  img.auto {width: auto ; height: auto; }
+  blockquote {margin-left: 1%; }
+}

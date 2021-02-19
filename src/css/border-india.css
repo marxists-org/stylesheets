@@ -1,0 +1,47 @@
+/* Used for indexes of Indian writers or related material, 				*/
+/* e.g. https://www.marxists.org/archive/shibdas-ghosh/index.htm		*/
+
+@import url("border.css");
+
+body { background : #a90017 }
+a:link { color: #a90017 }
+a:visited { color: #ff0000 }
+a.title:link { color: #a90017 }
+a.title:visited { color: #ff0000 }
+
+div.border {
+	width: 93%; 
+	border: 0.5em solid #eecc00;
+	}
+
+p { font-family: "Times New Roman", serif }
+
+p.title { color: #f0f000 }
+p.toc { color: #003300; line-height: 100% }
+p.information { color: #660000 }
+p.pagenote { color: #003300; font-family: tahoma; }
+
+H1 {color: #A90017; font-size: xx-large; 
+	font-family:  "Times New Roman", serif }
+H2 {color: #A90017; font-size: 28pt }
+H3  {color: #A90017; font-size: 22pt }
+H4  {color: #A90017 }
+H5  {color: #E3372E; font-size: 14pt }
+H6  {color: #000000 }
+
+hr { color: #003300 }
+hr.section { color: #003300 }
+hr.base { color: #000000 }
+hr.end { color: #003300 }
+
+sup.anote { color: #003300; font-family: "Times", serif; }
+sup.ednote { color: #003300 }
+
+span.info { color: #bc001d }
+span.term { color: #a90017 }
+
+@media (max-width: 480px) {
+  div.border { width: 95%; padding: 0.5em; 
+  border: 0.2em solid #eecc00; }
+}
+

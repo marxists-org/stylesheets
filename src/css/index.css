@@ -1,0 +1,199 @@
+/* index.css created by Jorn modified to confine to common fonts */
+BODY  {
+ color: #000000;
+ background: #FFFFF0;
+ font-family: arial;
+ margin-left: 4%;
+ margin-right: 4%;
+ margin-top: 0;
+}
+
+A:link { color: #0000CC; background: transparent; }
+ A:visited { color: #3333CC; background: transparent; }
+ A:hover { color: #FF0000; background: transparent; }
+ A:active { color: #FF0000; background: transparent; }
+
+A.mia:link { color: #FF0000; background: transparent; }
+  A.mia:visited { color: #FF3300; background: transparent; }
+  A.mia:hover { color: #0000FF; background: transparent; }
+  A.mia:active { color: #0000FF; background: transparent; }
+
+P {
+ font-size: 12pt;
+ font-family: 'Times New Roman', Times, Georgia, serif;
+ text-indent: 0;
+ text-align: justify;
+ line-height: 140%;
+}
+
+
+/* Document Title */
+H1    {
+ font-size: 36pt;
+ font-family: Arial, Verdana, Helvetica, sans-serif;
+ color: #FF0000;
+ text-align: center;
+}
+
+/* Authors' name */
+H2 {
+ font-size: 24pt;
+ font-family: Arial, Verdana, Helvetica, sans-serif;
+ color: #000033;
+ text-align: center;
+}
+
+/* Chapter Title + Title date */
+H3 {
+ font-size: 18pt;
+ font-family: Arial, Verdana, Helvetica, sans-serif;
+ color: #000033;
+ text-align: center;
+}
+
+/* Section Title */
+H4 {
+ font-size: 14pt;
+ font-family: Tahoma, Verdana, Helvetica, sans-serif;
+ text-align: center;
+}
+
+/* Sub Section (5) */
+H5 {
+ font-size: 12pt;
+ font-family: Arial, Verdana, Helvetica, sans-serif;
+ font-weight: bold;
+ text-align: center;
+}
+
+/* Sub Section (6) */
+H6 {
+ font-size: 12pt;
+ font-family: Arial, Verdana, Helvetica, sans-serif;
+ text-align: center;
+}
+
+OL, UL, LI {
+ font-size: 12pt;
+ font-family: 'Times New Roman', Times, Georgia, serif;
+ text-indent: 0em;
+ text-align: left;
+ line-height: 140%;
+}
+
+HR {
+ color: #FF0000;
+}
+
+HR.infotop {
+ color: #FF0000;
+ margin-top: 3em;
+ margin-bottom: 0.2em;
+}
+
+HR.infobot {
+ color: #FF0000;
+ margin-top: 0.2em;
+ margin-bottom: 3em;
+}
+
+
+.link  {
+ text-align: center;
+ text-indent: 0;
+ font-size: 11pt;
+ font-family: tahoma;
+ font-weight: bold;
+}
+
+.toplink  {
+ text-align: left;
+ text-indent: 0;
+ font-size: 9pt;
+ font-family: tahoma;
+ font-weight: bold;
+ margin-top: 0pt;
+ margin-bottom: 2em;
+}
+
+.updat {
+ text-align: right;
+ font-family: tahoma;
+ font-size: 9pt;
+ font-weight: normal;
+ margin-top: 0pt;
+ margin-right: 6%;
+}
+
+.bild {
+ font-family: tahoma;
+ font-size: 10pt;
+ text-indent: 0;
+ font-weight: bold;
+ text-align: left;
+ margin-top: 0;
+}
+
+.info  {
+ font-size: 10pt;
+ font-weight: normal;
+ text-indent: 0;
+ margin-top: 0pt;
+ margin-bottom: 0pt;
+ line-height: normal;
+}
+
+.author {
+ text-align: right;
+ font-weight: bold;
+ font-style: italic;
+ margin-right: 10%;
+}
+
+.c    {
+ font-family: tahoma;
+ text-align: center;
+ text-indent: 0;
+}
+
+.cr    {
+ text-align: center;
+ text-indent: 0;
+ color: #FF0000;
+}
+
+.note {
+ font-size: 11pt;
+ text-align: left;
+ text-indent: 0;
+ margin-bottom: 0;
+}
+
+.fst {
+ text-indent: 0;
+}
+
+.date {
+ text-align: right;
+ text-indent: 0;
+}
+
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 18pt; margin-left: 1%; margin-right: 1%; }
+  h2 { font-size: 16pt; margin-left: 1%; margin-right: 1%; }
+  h3 { font-size: 14pt; margin-left: 1%; margin-right: 1%; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  img { width: 150px; height: auto; }
+  img.auto {width: auto ; height: auto; }
+  blockquote {margin-left: 1%; }
+}

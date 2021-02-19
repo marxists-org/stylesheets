@@ -1,0 +1,112 @@
+/* CSS Document */
+a:link { font-weight: bold; text-decoration: underline; }
+a:visited { font-weight: bold; text-decoration: underline; }
+p { font-family: verdana, arial, "ms sans serif", sans-serif;
+font-size: 12px;  margin-left: 6%; margin-right: 6%; line-height: 18px; padding-left: 8px;
+}
+h1 {
+ margin-left: 6%;
+ margin-right: 6%;
+	padding-left: 5px;
+	color: #333;
+	font-family: verdana, arial, "ms sans serif", sans-serif;
+font-size: 18px; 
+font-style: italic;
+}
+h2 {
+ margin-left: 6%;
+ margin-right: 6%;
+	color: #333;
+	font: italic 15px/17px Georgia, "Times New Roman", Times, serif;
+}
+h2 a{
+	color: #333;
+	font: italic 15px/17px Georgia, "Times New Roman", Times, serif;
+}
+h3 {
+    margin-left: 6%;
+    margin-right: 6%;
+    line-height: 30px; 
+	padding-left: 5px;
+	color: #000006;
+	font: italic 19px/21px Georgia, "Times New Roman", Times, serif;
+}
+.header { font-family: verdana, arial, "ms sans serif", sans-serif; font-style: italic;
+font-size: 15px; font-weight: bold; margin-left: 6%; margin-right: 6%; line-height: 13px;
+color: #333333; }
+.information { font-family: verdana, arial, "ms sans serif", sans-serif;
+font-size: 10px; font-weight: normal; line-height: 14px; color:
+#fff; margin-left: 6%; margin-right: 6% }
+.navigation { font-family: verdana, arial, "ms sans serif", sans-serif;
+font-size: 10px; font-weight: normal; line-height: 14px; color:
+#fff; }
+.navigation a,.small a:visited
+{ color: #fff; font-weight: bold;
+} 
+.basic { font-family: verdana, arial, "ms sans serif", sans-serif;
+font-size: 10px; line-height: 10px; padding-left: 5px; 
+}
+.basic a,.basic a:visited { color: #000; }
+input, textarea, select { background-color: #CCCCCC; border-style:
+solid; border-width: 1px; font-family: verdana, arial, sans-serif;
+font-size: 10px; color: #333333; padding: 0px;
+}
+.author { color: #666;
+font-family: verdana, arial, sans-serif;
+font-size: 11px;
+}
+.authors { 
+font-color: #fff;
+font-family: verdana, arial, sans-serif;
+font-size: 10px;
+}
+.authors a,. authors a:visited { color: #fff;
+font-color: #fff;
+font-family: verdana, arial, sans-serif;
+font-size: 10px;
+}
+.index { color: #FFF;
+font-family: verdana, arial, sans-serif;
+font-size: 11px;
+}
+.contents { color: #333;
+font-family: verdana, arial, sans-serif;
+font-size: 10px;
+text-align: justify;
+margin-right: 25px; margin-left: 10px;
+}
+.contents a,.contents a:visited {color: #333;
+font-family: verdana, arial, sans-serif;
+font-size: 10px;
+}
+.indextextlist {color: #333;
+font-family: verdana, arial, sans-serif;
+font-size: 12px;
+text-align: left;
+}
+.indextextlist a,.indextextlist a:visited {color: #333;
+font-family: verdana, arial, sans-serif;
+font-size: 12px;
+text-align: left;
+}
+hr { width: 88%; text-align: center; height: 1px; }
+
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 18pt; margin-left: 1%; margin-right: 1%; }
+  h2 { font-size: 16pt; margin-left: 1%; margin-right: 1%; }
+  h3 { font-size: 14pt; margin-left: 1%; margin-right: 1%; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  img { width: 150px; height: auto; }
+  img.auto {width: auto ; height: auto; }
+  blockquote {margin-left: 1%; }
+}

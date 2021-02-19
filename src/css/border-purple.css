@@ -1,0 +1,41 @@
+@import url("border.css");
+
+body { background : #330033 }
+a:link { color: #990099 }
+a:visited { color: #773377 }
+a.title:link { color: #ffcc00 }
+a.title:visited { color: #cc9900 }
+
+div.border {
+	width: 93%; 
+	border: 0.5em solid #990099;
+	}
+
+p.title { color: #ffcc00 }
+p.toc { color: #660066 }
+p.information { color: #660066 }
+p.pagenote { color: #660066 }
+
+H1 {color: #660066 }
+H1.big {color: #660066; font-size: 28pt }
+H2  {color: #660066 }
+H3  {color: #660066 }
+H4  {color: #660066 }
+H5  {color: #660066 }
+H6  {color: #660066 }
+
+hr.section { color: #330000 }
+hr.base { color: #000000 }
+hr.end { color: #330000 }
+hr { color: #330000 }
+
+sup.anote { color: #660066 }
+sup.ednote { color: #660066 }
+span.info { color: #660066 }
+span.term { color: #660066 }
+
+@media (max-width: 480px) {
+  div.border { width: 95%; padding: 0.5em; 
+  border: 0.2em solid #99bb99; }
+}
+

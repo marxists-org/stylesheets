@@ -1,0 +1,558 @@
+/* =====================================*/
+/* Hegel's Works */
+/* 20/06/2000 */
+
+/* by Andy Blunden */
+/* =====================================*/
+
+body { background : white; color: black }
+a:link { color: #300050; background : transparent }
+a:visited { color: #330050; background : transparent }
+
+img.right { float: right; margin: 2em; }
+img.rt-mg { float: right; margin-right: 8%; }
+img.left { float: left; margin: 2em; }
+
+hr.section { width: 44%; height: 4px; }
+hr.base { width: 92%; height: 1px; }
+hr.end { width: 92%; height: 2px; }
+
+em { word-spacing: 0.2em }
+
+/* Basic p */
+p {
+ text-indent: 0em;
+ font-family : "Georgia", serif;
+ font-size: 12pt;
+ text-align: left;
+ line-height: 130%;
+ margin-left: 2%;
+ margin-right: 2%;
+ }
+ 
+
+/* =====================================*/
+/* Header class tags */
+/* =====================================*/
+
+/* Document Title */
+H1 {
+ background: transparent;
+ color: #a00000;
+ font-weight: normal; 
+ font-size: x-large; 
+ font-family: "Times New Roman", serif;
+ text-align: center; 
+ }
+
+/* Chapter Heading*/
+H2 { 
+ background: transparent;
+ color: #300077;
+ font-weight: bold; 
+ font-size: large; 
+ line-height: 150%;
+ font-family: "Arial Narrow", sans-serif;
+ text-align: left; 
+ }
+
+/* A, B, C under Chapter */
+H3 {
+ background: transparent;
+ color: #a00000; 
+ font-weight: bold;
+ font-size: 16pt; 
+ text-align: left;
+ line-height: 135%;
+ font-family : "geneva", sans-serif;
+ margin-left: 18px;
+ }
+ 
+/* Section Title 1., 2.,  */
+H4 {
+ background: transparent;
+ color: #c00030; 
+ font-weight: bold;
+ font-size: 14pt; 
+ text-align: left;
+ line-height: 135%;
+ font-family : "Arial Narrow", sans-serif;
+ margin-left: 27px;
+ }
+ 
+H5 {
+ background: transparent;
+ color: #f00020; 
+ text-align: left;
+ font-family : "Arial narrow", sans-serif;
+ font-size: 13pt;  
+ line-height: 135%;
+ margin-left: 26px;
+ }
+
+H6 {
+ background: transparent;
+ color: #2000f0; 
+ text-align: left;
+ font-family: "arial", sans-serif;
+ font-size: 11pt;  
+ line-height: 125%;
+ margin-left: 42px;
+ }
+
+
+/* Lenin's Highlighting */
+span.vil {
+ background: #ffffdd;
+ color: #000022; 
+ }
+ 
+/* Subheading  */
+span.sub1 {
+ background: transparent;
+ font-size: 18pt;
+ color: #a00022; 
+ }
+ 
+/* i.e. Editorial notes in brackets */
+span.inote {
+ background: transparent;
+ color: #666666; 
+ font-size: 11pt;
+ font-weight: normal;
+ }
+ 
+/* ------------ */
+/* spans        */
+
+span.greek {
+ font-family: symbol;
+}
+
+
+/* Used for (a), etc in the text */
+span.pointa {
+ background: transparent;
+ color: #660000; 
+ font-family : "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+}
+
+/* Used for (1), etc in the text */
+span.point1 {
+ background: transparent;
+ color: #000066; 
+ font-family : "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+}
+
+/* Used for [a], etc in the text */
+span.pointq {
+ background: transparent;
+ color: #005000; 
+ font-family : "Arial", sans-serif;
+ font-size: 11pt;
+ font-weight: bold;
+}
+
+/* Used for [alpha], etc in the text */
+span.pointg {
+ color: #000050; 
+ font-family : "symbol";
+ font-size: 12pt;
+ font-weight: normal;
+}
+
+span.remark {
+ font-size: 14pt;
+ color: #000077; 
+ font-weight: bold;
+ }
+ 
+span.rem1 {
+ font-size: 12pt;
+ color: #000060; 
+ font-weight: bold;
+ }
+ 
+/* Used for 1st level in heading */
+span.level1 {
+ color: #c00000; 
+ font-family : "arial black", sans-serif;
+ font-weight: normal;
+}
+
+/* Used for 2nd level in heading */
+span.level2 {
+ color: #f00000; 
+ font-family : "impact", sans-serif;
+ font-weight: normal;
+}
+
+/* Used for 3rd level in heading */
+span.level3 {
+ color: #3000c0; 
+ font-family : "verdana", sans-serif;
+ font-weight: bold;
+}
+
+/* Used for 4th level in heading */
+span.level4 {
+ color: #000080; 
+ font-family : "arial", sans-serif;
+}
+
+/* Used for 5th level in heading */
+span.level5 {
+ color: #6060f0; 
+ font-family : "arial narrow", sans-serif;
+ font-weight: bold;
+}
+
+
+/* =====================================*/
+/* Paragraph class tags */
+/* =====================================*/
+
+
+/* Table of Contents Text */
+p.toc {
+ text-indent: 0em;
+ font-size: 11pt;
+ line-height: 95%;
+ color: #000030; 
+ text-align: left;
+ line-height: 125%;
+ margin-left: 3%;
+ }
+ 
+ 
+/* Editor's comment */
+p.vu {
+ text-indent: 0em;
+ font-size: 10pt;
+ color: #000030; 
+ text-align: left;
+ line-height: 125%;
+ margin-left: 6%;
+ margin-right: 6%;
+ }
+ 
+/* Author's note 'zusatz' */
+p.zu {
+ text-indent: 0em;
+ font-size: 11pt;
+ color: #000030; 
+ text-align: left;
+ line-height: 128%;
+ margin-left: 6%;
+ margin-right: 6%;
+ }
+ 
+/* Author's addition */
+p.ad {
+ text-indent: 0em;
+ font-size: 11pt;
+ color: #300000; 
+ text-align: left;
+ line-height: 128%;
+ margin-left: 6%;
+ margin-right: 6%;
+ }
+ 
+/* Basic p -- with first line indent */
+p.fst {
+ text-indent: 1em;
+ }
+
+/* Paragraph numbers */
+p.s {
+ color: #1f005f; 
+ text-align: center;
+ font-weight: bold;
+ font-size: 13pt;  
+ line-height: 120%;
+ }
+
+/* For Links to relevant sections */
+p.link {
+ text-indent: 0em;
+ font-family : "arial narrow", sans-serif;
+ font-size: 14pt;
+ font-weight: bold;
+ text-align: center;
+ line-height: 110%;
+ }
+
+/* Remarks and Minor subheadings */
+p.head {
+ text-indent: -72px;
+ color: #0000c0; 
+ text-align: left;
+ font-family: "verdana", sans-serif;
+ font-size: 11pt;  
+ line-height: 110%;
+ margin-left: 96px;
+ }
+
+/* Very Minor subheadings */
+p.subhead {
+ text-indent: -48px;
+ color: #0000a0; 
+ text-align: left;
+ font-family: "verdana", sans-serif;
+ font-size: 10pt;  
+ line-height: 110%;
+ margin-left: 108px;
+ }
+p.information { 
+ color: #660022; 
+ text-indent: 0em; 
+ line-height: 125%;
+ text-align: left;
+ }
+
+span.info {
+ color: #660022; 
+ font-family: "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+}
+
+/* Editorial notes in text */
+span.inote {
+ color: #666666; 
+ font-size: 12pt;
+ font-weight: normal;
+ }
+
+/* Standard Quote */
+p.quote { 
+ text-indent: 0em;
+ font-size: 12pt;
+ line-height: 125%;
+ text-align: left;
+ margin-left: 10%;
+ margin-right: 10%;
+}
+
+/* Quote with first line indent */
+p.quoteb { 
+ text-align: left;
+ line-height: 125%;
+ margin-left: 10%;
+ margin-right: 10%;
+}
+
+/* Numbered List style */
+ol.numbered { 
+list-style-type: arabic; 
+ text-align: left;
+ line-height: 130%;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+/* Negative indent for number list */
+p.quote-list { 
+ text-indent: -1em;
+ line-height: 130%;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+/* Quote cited */
+p.inline {
+ color: #666666; 
+ text-indent: 0em;
+ font-family : "Arial", sans-serif;
+ font-size: x-small;
+ text-align: right;
+ margin-left: 20%;
+ margin-right: 8%;
+ }
+
+
+/*----------------------------------*/
+/*======== Index elements ========*/
+/*----------------------------------*/
+
+
+/* Indent without first line indent */
+p.indentb { 
+ text-indent: 0em;
+ line-height: 125%;
+ margin-left: 12%;
+ margin-right: 12%;
+}
+
+
+/* Negative indent for number list */
+p.indent-list { 
+ text-indent: -1em;
+ margin-left: 12%;
+ margin-right: 12%;
+}
+ 
+ 
+/*----------------------------------*/
+/*======= General Document =======*/
+/*----------------------------------*/
+
+/* Book title for Chapter files */
+p.title { 
+ text-indent: 0em;
+ font-weight: bold;
+ text-align: center;
+ margin: 1%;
+ font-family : "Arial", sans-serif;
+ font-size: 12pt;  
+ }
+
+/* Title of Parent Document */
+p.header { 
+ background: transparent;
+ color: #c00020; 
+ text-indent: 0em; 
+ font-size: 14pt; 
+ font-family : "verdana", sans-serif;
+ line-height: 100%;
+ text-align: center;
+ margin-right: 10%; 
+ margin-left: 10%;
+ }
+
+/* Subheading to Title of Parent Document */
+p.subheader { 
+ background: transparent;
+ color: #666666; 
+ text-indent: 0em; 
+ font-size: 11pt; 
+ line-height: 100%;
+ text-align: center;
+ }
+
+/* Equations */
+
+sup {
+ font-family : "Arial", monospace;
+ font-size: x-small;
+ font-weight: normal;
+ }
+ 
+sub {
+ font-family : "Arial", monospace;
+ font-size: x-small;
+ font-weight: normal;
+ }
+ 
+td.text {
+ text-indent: 0em;
+ font-size: 12pt;
+ font-weight: normal;
+ text-align: left;
+ }
+
+td.sect {
+ font-family : "Arial narrow", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+ text-align: right;
+ color: #600000;
+ }
+ 
+td.note {
+ text-indent: 0em;
+ font-size: 11pt;
+ font-weight: normal;
+ text-align: left;
+ color: #006000;
+ }
+ 
+td.n {
+ text-indent: 1em;
+ font-family : "arial", sans-serif;
+ font-size: 11pt;
+ font-weight: bold;
+ text-align: right;
+ }
+ 
+ 
+/* Remark by author in document */
+ 
+/* Signature */
+p.sig {  
+ text-indent: 0em; 
+ font-family : "Vivaldi", script, serif;
+ font-size: 12pt; 
+ font-weight: bold;
+ font-style: italic;
+ text-align: left; 
+ margin: 8%; 
+ }
+ 
+ 
+/* For blank spaces */
+p.skip { line-height: 75% }
+p.skipb { line-height: 50% }
+ 
+ 
+/*----------------------------------*/
+/*====== Page-ending elements =====*/
+/*----------------------------------*/
+
+/* Next Section-Chapter of work */
+p.next { 
+ text-indent: 0em;
+ font-family : "Arial", sans-serif;
+ font-size: 14pt;
+ font-weight: bold;
+ text-align: center;
+ line-height: 125%;
+ }
+ 
+/* Page bottom links */
+p.footer {  
+ text-indent: 0em; 
+ font-weight: bold;
+ font-family : "Arial", sans-serif;
+ font-size: 12pt; 
+ text-align: center; 
+ margin: 3%;
+ }
+
+/* For Link to home page at base of document */
+p.home {
+ text-indent: 0em;
+ font-family : "verdana", sans-serif;
+ font-size: 8pt;
+ text-align: center;
+ line-height: 100%;
+ margin-left: 10%;
+ margin-right: 10%;
+ }
+
+
+
+
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 18pt; margin-left: 1%; margin-right: 1%; }
+  h2 { font-size: 16pt; margin-left: 1%; margin-right: 1%; }
+  h3 { font-size: 14pt; margin-left: 1%; margin-right: 1%; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  img { width: 150px; height: auto; }
+  img.auto {width: auto ; height: auto; }
+  blockquote {margin-left: 1%; }
+}

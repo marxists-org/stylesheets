@@ -1,0 +1,18 @@
+/* adds pagenumbers to basic works css. Example:
+ * <span class="pagenum">37</span> 
+ * within paragraph
+ * Graham Seaman July 2020
+ * Used in nieuwenhuis archive and others 
+ */
+
+@import url("works.css");
+
+.pagenum {
+        float: right;
+        margin-left: 2em;
+        margin-right: 5px;
+        font-size: 100%;
+        color: #999;
+        font-style: italic;
+        }
+

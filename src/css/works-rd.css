@@ -1,0 +1,186 @@
+/* Relocated from /archive/css/  				*/
+
+@import url("works.css");
+
+a:link { color: #aa0000; }
+a:visited { color: #993333; }
+
+hr.section { width: 44%; height: 4px; }
+hr.base { width: 92%; text-align: center; height: 1px; }
+hr.end { height: 2px; }
+
+/* Basic p */
+p {
+ font-family: "Times New Roman", serif;
+ }
+ 
+H1 {
+ color: #330000;
+ margin-left: 36px;
+ margin-right: 36px;
+ }
+
+/* Authors' name */
+H2 { 
+ color: #330000;
+ }
+
+/* Chapter Title */
+H3 {
+ color: #330000; 
+ margin-left: 36px;
+ margin-right: 36px;
+ }
+ 
+/* Section Title */
+H4 {
+ color: #330000; 
+ margin-left: 36px;
+ margin-right: 36px;
+ }
+ 
+/* Sub Section 2 */
+H5 {
+ color: #330000; 
+ margin-left: 36px;
+ margin-right: 36px;
+ }
+ 
+/* Sub Section 3 */
+H6 {
+ color: #330000; 
+ margin-left: 24px;
+ margin-right: 36px;
+ }
+
+/* ~~~~~~~ Footnotes ~~~~~~~~~~~~~~~~~~ */
+
+sup.anote {
+ color: #330000; 
+ font-family : "Times", serif;
+ font-size: x-small;
+ }
+ 
+sup.ednote {
+ color: #330000; 
+ font-family : "Courier New", monospace;
+ }
+  
+/* ~~~~~~~ Spanners    ~~~~~~~~~~~~~~~ */
+
+span.inote {
+ color: #666666; 
+ font-family : "Times New Roman", serif;
+ }
+
+span.info {
+ color: #330000; 
+ font-size: 12pt;
+}
+
+/* Used for notes in the text */
+span.term {
+ color: #330000; 
+}
+
+
+/* Document Bibliographical Information */
+p.information { 
+ color: #330000; 
+ font-size: 12pt; 
+ }
+
+/* Standard Quote */
+p.quote { 
+ font-size: 10pt;
+ line-height: 150%;
+}
+
+p.quoteb { 
+ font-size: 10pt;
+}
+
+p.quotec { 
+ font-family : "Times New Roman", serif;
+ font-size: 10pt;
+}
+
+p.quote-list { 
+ font-size: 10pt;
+}
+
+p.toc {
+ color: #330000; 
+ line-height: 100%;
+}
+
+p.sig {  
+ font-size: 12pt; 
+ font-weight: bold;
+ }
+  
+p.pagenote {
+ color: #330000; 
+ }
+ 
+p.sub { 
+ font-family: "New York", serif;
+ }
+
+p.indent { 
+ margin-left: 12%;
+ margin-right: 12%;
+}
+
+p.indentb { 
+ margin-left: 12%;
+ margin-right: 12%;
+}
+
+ul.disc { 
+ font-family: "Times New Roman", serif;
+ text-align: left;
+ margin-left: 7%;
+}
+
+ol.numbered { 
+ text-align: left;
+ margin-left: 7%;
+}
+
+
+/*----------------------------------*/
+/* Table elements 					*/
+/*----------------------------------*/
+
+
+table.data {
+ font-family: "Times", monospace;
+ font-size: 10pt;
+ }
+
+/* Column Headings */ 
+td.head {
+ font-family: "Times New Roman", serif;
+ }
+
+
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 18pt; margin-left: 1%; margin-right: 1%; }
+  h2 { font-size: 16pt; margin-left: 1%; margin-right: 1%; }
+  h3 { font-size: 14pt; margin-left: 1%; margin-right: 1%; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  img { width: 150px; height: auto; }
+  img.auto {width: auto ; height: auto; }
+  blockquote {margin-left: 1%; }
+}

@@ -1,0 +1,44 @@
+/* Used for various indexes						*/
+/* e.g. https://www.marxists.org/archive/marx/letters/subject/capital.htm 	*/
+
+@import url("border.css");
+
+body { background : #660000 }
+a:link { color: #990000 }
+a:visited { color: #993333 }
+a.title:link { color: #ffcc00 }
+a.title:visited { color: #cc9900 }
+a.mecw:link {color: #aaaaaa }
+a.mecw:visited {color: #999999 }
+
+div.border {
+	width: 93%; 
+	border: 0.5em solid #ffcc33;
+	}
+
+p.title { color: #ffcc00 }
+p.toc { color: #330000 }
+p.information { color: #330000 }
+p.pagenote { color: #330000 }
+
+H1  {color: #330000; font-size: 24pt }
+H2  {color: #330000; font-size: 18pt}
+H3  {color: #330000 }
+H4  {color: #330000 }
+H5  {color: #330000 }
+H6  {color: #330000  }
+
+hr.section { color: #660000 }
+hr.base { color: #000000 }
+hr.end { color: #660000 }
+hr { color: #660000 }
+
+sup.anote { color: #330000 }
+sup.ednote { color: #330000 }
+span.info { color: #330000 }
+span.term { color: #330000 }
+
+@media (max-width: 480px) {
+  div.border { width: 95%; padding: 0.5em; 
+  border: 0.2em solid #ffcc33; }
+}

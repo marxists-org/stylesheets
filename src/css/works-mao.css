@@ -1,0 +1,48 @@
+/* For maoist and india-related document in /subject/reference */
+@import url("works.css");
+a:link { color: #a90017 }
+a:visited { color: #ff0000 }
+
+H1 { color: #000033 }
+H1.medium { color: #000033 }
+H1.big { color: #000033 }
+H2 { color: #000033 }
+H3 { color: #000033 }
+H4 { color: #000033 }
+H5 { color: #000033 }
+H6 { color: #000033 }
+
+p { font-family: "Times New Roman", serif }
+ 
+p.toc { color: #003300 }
+p.information { color: #A90017 }
+p.pagenote { color: #003300 }
+
+sup.anote { color: #003300; font-family : "Times", serif }
+sup.ednote { color: #003300 }
+sup.enote { color: #003300 }
+
+span.info { color: #A90017 }
+span.term { color: #A90017 }
+span.date { color: #A90017 }
+span.inote { font-family : "Times New Roman", serif }
+
+hr { width: 94% }
+hr.section { width: 44%; height: 4px; }
+hr.end { height: 2px; }
+
+Blockquote { 
+ text-indent: 0em;
+ font-size: 11pt;
+ margin-left: 12%;
+ margin-right: 8%;
+}
+p.endnote { 
+ text-indent: 0em;
+ font-size: 11pt;
+ text-indent: 0em;
+ font-family: serif;
+ line-height: 100%;
+ margin-right: 8%;
+ margin-left: 8% }
+ 

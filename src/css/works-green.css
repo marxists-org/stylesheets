@@ -1,0 +1,34 @@
+@import url("works.css");
+a:link { color: #006600 }
+a:visited { color: #336666 }
+
+div.border { border: #000088; }
+H1 { color: #003300 }
+H1.medium { color: #003300 }
+H1.big { color: #003300 }
+H2 { color: #003300 }
+H3 { color: #003300 }
+H4 { color: #003300 }
+H5 { color: #003300 }
+H6 { color: #003300 }
+
+hr {border: 0;
+height: 1px;
+background: #333;
+background-image: -webkit-linear-gradient(left, #ccc, #003300, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #003300, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #003300, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #003300, #ccc);
+margin-left: 6%; margin-right: 6%;}
+
+p.toc { color: #003300 }
+p.information { color: #003300 }
+p.pagenote { color: #003300 }
+
+sup.anote { color: #003300 }
+sup.ednote { color: #003300 }
+sup.enote { color: #003300 }
+
+span.info { color: #003300 }
+span.term { color: #003300 }
+ 

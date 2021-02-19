@@ -1,0 +1,242 @@
+BODY {
+	BACKGROUND: #003300
+}
+A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #006600
+}
+A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #336633
+}
+A.title:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #669999; TEXT-DECORATION: none
+}
+A.title:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #336666; TEXT-DECORATION: none
+}
+P.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; MARGIN: 1%; COLOR: #ffcc00; TEXT-INDENT: 0em; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: left
+}
+P.fontdl {
+	FONT-SIZE: 9pt; MARGIN: 1%; COLOR: #003300; TEXT-INDENT: 0em; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: center
+}
+DIV.border {
+	BORDER-RIGHT: #669966 0.5em solid; PADDING-RIGHT: 1em; BORDER-TOP: #669966 0.5em solid; PADDING-LEFT: 1em; BACKGROUND: #ffffff; PADDING-BOTTOM: 1em; BORDER-LEFT: #669966 0.5em solid; WIDTH: 93%; PADDING-TOP: 1em; BORDER-BOTTOM: #669966 0.5em solid
+}
+IMG.right {
+	FLOAT: right; MARGIN: 2em
+}
+IMG.left {
+	FLOAT: left; MARGIN: 2em
+}
+IMG.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+HR.section {
+	WIDTH: 44%; COLOR: #003300; HEIGHT: 4px; text-align: center
+}
+HR.base {
+	WIDTH: 92%; HEIGHT: 1px; text-align: center
+}
+HR.end {
+	WIDTH: 92%; COLOR: #003300; HEIGHT: 2px; text-align: center
+}
+HR {
+	WIDTH: 94%; COLOR: #003300; HEIGHT: 2px; text-align: center
+}
+EM {
+	WORD-SPACING: 0.2em
+}
+BLOCKQUOTE {
+	MARGIN-LEFT: 5%
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-large; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 36px; COLOR: #003300; MARGIN-RIGHT: 36px; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: center
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: large; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #003300; LINE-HEIGHT: 150%; FONT-FAMILY: "Helvetica", "Arial", sans-serif; TEXT-ALIGN: center
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 22pt; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 36px; COLOR: #003300; MARGIN-RIGHT: 36px; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: center
+}
+H4 {
+	FONT-SIZE: 14pt; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 36px; COLOR: #003300; LINE-HEIGHT: 150%; MARGIN-RIGHT: 36px; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: center
+}
+H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 36px; COLOR: #003300; LINE-HEIGHT: 175%; MARGIN-RIGHT: 36px; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: center
+}
+H6 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 24px; COLOR: #003300; LINE-HEIGHT: 175%; MARGIN-RIGHT: 36px; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: left
+}
+SUP.anote {
+	FONT-WEIGHT: bold; FONT-SIZE: x-small; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #003300; FONT-FAMILY: "Times", serif; TEXT-DECORATION: none
+}
+SUP.ednote {
+	FONT-WEIGHT: normal; FONT-SIZE: x-small; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #003300; FONT-FAMILY: "Courier New", monospace; TEXT-DECORATION: none
+}
+SPAN.inote {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #666666; FONT-FAMILY: "Times New Roman", serif
+}
+SPAN.info {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #003300; FONT-FAMILY: "Arial", sans-serif
+}
+SPAN.date {
+	FONT-WEIGHT: normal; FONT-SIZE: small; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #333333; FONT-FAMILY: "Arial", sans-serif
+}
+SPAN.term {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #003300; FONT-FAMILY: "Arial", sans-serif
+}
+SPAN.context {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #999999
+}
+SPAN.greek {
+	FONT-FAMILY: symbol
+}
+P {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 6%; TEXT-INDENT: 1em; LINE-HEIGHT: 150%; MARGIN-RIGHT: 6%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: justify
+}
+P.fst {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 6%; TEXT-INDENT: 0em; LINE-HEIGHT: 150%; MARGIN-RIGHT: 6%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: justify
+}
+P.quote {
+	FONT-SIZE: 10pt; MARGIN-LEFT: 12%; TEXT-INDENT: 1em; LINE-HEIGHT: 125%; MARGIN-RIGHT: 12%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: justify
+}
+P.quoteb {
+	FONT-SIZE: 10pt; MARGIN-LEFT: 12%; TEXT-INDENT: 0em; LINE-HEIGHT: 150%; MARGIN-RIGHT: 12%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: justify
+}
+P.quotec {
+	FONT-SIZE: 10pt; MARGIN-LEFT: 16%; TEXT-INDENT: 0em; LINE-HEIGHT: 150%; MARGIN-RIGHT: 16%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: justify
+}
+P.quote-list {
+	FONT-SIZE: 10pt; MARGIN-LEFT: 14%; TEXT-INDENT: -1em; LINE-HEIGHT: 150%; MARGIN-RIGHT: 14%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: justify
+}
+P.inline {
+	FONT-SIZE: x-small; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 20%; COLOR: #666666; TEXT-INDENT: 0em; MARGIN-RIGHT: 8%; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: right
+}
+P.toc {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 7%; COLOR: #003300; TEXT-INDENT: 0em; LINE-HEIGHT: 100%; MARGIN-RIGHT: 7%; FONT-FAMILY: "Helvetica", "Arial", sans-serif; TEXT-ALIGN: left
+}
+P.index {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; MARGIN-LEFT: 9%; TEXT-INDENT: 0em; LINE-HEIGHT: 200%; MARGIN-RIGHT: 9%; FONT-FAMILY: "Helvetica", "Arial", sans-serif; TEXT-ALIGN: left
+}
+TABLE.data {
+	FONT-SIZE: 10pt; BACKGROUND: #eeeeee; FONT-FAMILY: "Times", monospace
+}
+TD.head {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: #999999; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: center
+}
+TR.alt {
+	BACKGROUND: #cccccc
+}
+TR.total {
+	BACKGROUND: #ffcccc
+}
+TR.totalb {
+	BACKGROUND: #ff9999
+}
+TD.index {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: #efefef; COLOR: #999999; TEXT-INDENT: 0em; FONT-FAMILY: "Helvetica", "Arial", sans-serif; TEXT-ALIGN: left
+}
+TD.index-alt {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; BACKGROUND: #ffffff; COLOR: #999999; TEXT-INDENT: 0em; FONT-FAMILY: "Helvetica", "Arial", sans-serif; TEXT-ALIGN: left
+}
+TD.indexb {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; BACKGROUND: #ffffff; COLOR: #999999; TEXT-INDENT: 0em; FONT-FAMILY: "Helvetica", "Arial", sans-serif; TEXT-ALIGN: left
+}
+TD.note {
+	FONT-SIZE: small; BACKGROUND: #ffffff; MARGIN-LEFT: 10%; VERTICAL-ALIGN: top; COLOR: #444444; LINE-HEIGHT: 115%; MARGIN-RIGHT: 10%; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: justify
+}
+TD.text {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; VERTICAL-ALIGN: top; TEXT-INDENT: 0em; FONT-FAMILY: "Times", serif; TEXT-ALIGN: left
+}
+TD.data {
+	FONT-WEIGHT: normal; FONT-SIZE: 12pt; VERTICAL-ALIGN: top; TEXT-INDENT: 0em; FONT-FAMILY: "Times", serif; TEXT-ALIGN: right
+}
+TD.small {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; TEXT-INDENT: 0em; FONT-FAMILY: "Times", serif; TEXT-ALIGN: left
+}
+TD.sdata {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; VERTICAL-ALIGN: top; TEXT-INDENT: 0em; FONT-FAMILY: "Times", serif; TEXT-ALIGN: right
+}
+P.indent {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 12%; TEXT-INDENT: 1em; LINE-HEIGHT: 150%; MARGIN-RIGHT: 12%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: justify
+}
+P.indentb {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 12%; TEXT-INDENT: 0em; LINE-HEIGHT: 150%; MARGIN-RIGHT: 12%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: justify
+}
+P.indentc {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 16%; TEXT-INDENT: 0em; LINE-HEIGHT: 150%; MARGIN-RIGHT: 16%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: justify
+}
+P.indent-list {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 12%; TEXT-INDENT: -1em; LINE-HEIGHT: 150%; MARGIN-RIGHT: 12%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: left
+}
+UL.disc {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 7%; LINE-HEIGHT: 130%; MARGIN-RIGHT: 14%; FONT-FAMILY: "Times New Roman", serif; LIST-STYLE-TYPE: disc; TEXT-ALIGN: left
+}
+OL.numbered {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 7%; LINE-HEIGHT: 130%; MARGIN-RIGHT: 14%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: left
+}
+P.information {
+	FONT-SIZE: 12pt; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 8%; COLOR: #003300; TEXT-INDENT: 0em; LINE-HEIGHT: 125%; MARGIN-RIGHT: 8%; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: left
+}
+P.sig {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; MARGIN-LEFT: 8%; TEXT-INDENT: 0em; LINE-HEIGHT: 125%; FONT-STYLE: italic; FONT-FAMILY: "Times New Roman", script, serif; TEXT-ALIGN: left
+}
+SUP {
+	FONT-WEIGHT: normal; FONT-SIZE: x-small; FONT-FAMILY: "Arial", monospace
+}
+SUB {
+	FONT-WEIGHT: normal; FONT-SIZE: x-small; FONT-FAMILY: "Arial", monospace
+}
+P.pagenote {
+	FONT-SIZE: x-small; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 6%; COLOR: #003300; MARGIN-RIGHT: 6%; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: center
+}
+P.pagenoteb {
+	FONT-SIZE: x-small; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 10%; COLOR: #666666; LINE-HEIGHT: 115%; MARGIN-RIGHT: 10%; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: justify
+}
+P.skip {
+	LINE-HEIGHT: 75%
+}
+P.next {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; TEXT-INDENT: 0em; LINE-HEIGHT: 125%; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: center
+}
+P.footer {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; MARGIN: 3%; TEXT-INDENT: 0em; FONT-FAMILY: "Arial", sans-serif; TEXT-ALIGN: center
+}
+
+P.banglah1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 24pt; MARGIN-LEFT: 6%; COLOR: #003300; TEXT-INDENT: 0em; LINE-HEIGHT: 150%; MARGIN-RIGHT: 6%; FONT-FAMILY: "Rupali"; TEXT-ALIGN: center
+}
+
+P.banglanrmltxt {
+	FONT-SIZE: 18pt; MARGIN-LEFT: 6%; TEXT-INDENT: 0em; COLOR: #003300; LINE-HEIGHT: 150%; MARGIN-RIGHT: 6%; FONT-FAMILY: "Rupali"; TEXT-ALIGN: justify
+}
+
+P.banglah2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18pt; MARGIN-LEFT: 6%; TEXT-INDENT: 0em; COLOR: #003300; LINE-HEIGHT: 150%; MARGIN-RIGHT: 6%; FONT-FAMILY: "Rupali"; TEXT-ALIGN: center
+}
+
+
+
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  blockquote {margin-left: 1%; margin-right: 1%; }
+  p.title { font-size: 11pt; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 16pt; }
+  h2 { font-size: 15pt; }
+  h3 { font-size: 14pt; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  img { width: 150px; height: auto; }
+  img.auto {width: auto ; height: auto; }
+  div.border { width: 95%; padding: 0.5em; border: 0.2em solid #669966; }
+}

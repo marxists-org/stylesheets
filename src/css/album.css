@@ -1,0 +1,33 @@
+.navigation { font-size: 300%; font-weight: bold; }
+.pageselection { font-size: 100%; font-weight: bold; }
+body { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 10px; }
+#album { width: 480px; text-align: justify; }
+#album a { text-decoration: none; }
+#album table {
+	text-align: center;
+	font-size: 9pt; 
+	border: 3px double #c0c0c0;
+	padding: 5px;
+}
+#album td { border: 0px; }
+#album td:hover { background-color: #f8f8f8; }
+#album tr { border: 0px; }
+#album img { border: 0px; }
+
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 18pt; margin-left: 1%; margin-right: 1%; }
+  h2 { font-size: 16pt; margin-left: 1%; margin-right: 1%; }
+  h3 { font-size: 14pt; margin-left: 1%; margin-right: 1%; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  blockquote {margin-left: 1%; }
+}

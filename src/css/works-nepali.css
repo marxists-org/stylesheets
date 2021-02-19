@@ -1,0 +1,23 @@
+@import url("works.css");
+body { background : #ffeeee }
+a:link { color: #660000 }
+a:visited { color: #663333 }
+
+p { font-family: "kantipur", serif }
+ 
+p.toc { color: #003300 }
+p.information { color: #660000 }
+p.pagenote { color: #330000; font-family : "tahoma" }
+p.title { color: #000080; font-family : "Arial", sans-serif }
+
+sup.anote { color: #330000 }
+sup.ednote { color: #330000 }
+sup.enote { color: #003300 }
+
+span.info { color: #660000; font-family: "kantipur", sans-serif }
+span.term { color: #330000; font-family : "kantipur", sans-serif }
+span.date { font-family: "kantipur", sans-serif }
+ 
+span.kantipur { font-family: kantipur; }
+span.english { font-family: "Times New Roman"; }
+
