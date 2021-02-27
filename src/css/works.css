@@ -65,8 +65,6 @@
   --p-pagenote--color: var(--color-blue-20);
   --p-pagenoteb--color: var(--color-gray-40);
   --table-data--bg-color: var(--color-gray-93);
-  --table-data-td--bg-color: var(--color-white);
-  --table-data-td--color: var(--color-black);
   --td-data--bg-color: var(--color-white);
   --td-data--color: var(--color-black);
   --td-border--border-color: black;
@@ -757,11 +755,6 @@ table.data {
   font-size: 10pt;
 }
 
-table.data td {
-  background: var(--table-data-td--bg-color);
-  color: var(--table-data-td--color);
-}
-
 /* Experimental begins, 27.11.2018, —JL */
 
 table.border {
@@ -1049,8 +1042,6 @@ td.note {
   --p-pagenote--color: var(--color-gray-69);
   --p-pagenoteb--color: var(--color-gray-69);
   --table-data--bg-color: var(--color-black);
-  --table-data-td--bg-color: var(--color-black);
-  --table-data-td--color: var(--color-gray-69);
   --td-data--bg-color: var(--color-black);
   --td-data--color: var(--color-gray-69);
   --td-border--border-color: var(--color-gray-20);
