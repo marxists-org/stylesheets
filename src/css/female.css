@@ -47,7 +47,7 @@ div.border {
 img.right { float: right; margin: 2em; }
 img.left { float: left; margin: 2em; }
 
-hr.section { width: 44%; margin-left: auto; margin-right; height: 4px; color: #330000; }
+hr.section { width: 44%; margin-left: auto; height: 4px; color: #330000; }
 hr.base { width: 92%; text-align: center; height: 2px; color: #000000; }
 hr.end { width: 92%; text-align: center; height: 1px; color: #330044;  }
 hr { width: 94%; text-align: center; height: 1px; color: #440033; }

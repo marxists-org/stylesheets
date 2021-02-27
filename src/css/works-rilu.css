@@ -36,4 +36,4 @@ span.term { color: #25383C }
 @media (max-width: 480px) {
   div.border { width: 95%; padding: 0.5em; 
   border: 0.2em solid #99bb99; }
-
+}
