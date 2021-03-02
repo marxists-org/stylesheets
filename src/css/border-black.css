@@ -1,42 +1,73 @@
 @import url("border.css");
 
-body { background : #000000 }
-a:link { color: #aa00000 }
-a:visited { color: #993333 }
-a.title:link { color: #ffcc00 }
-a.title:visited { color: #cc9900 }
-a.mecw:link {color: #888888 }
-a.mecw:visited {color: #999999 }
+body {
+  background: #000000;
+}
+
+a:link {
+  color: #AA0000;
+}
+
+a:visited {
+  color: #993333;
+}
+
+a.title:link {
+  color: #FFCC00;
+}
+
+a.title:visited {
+  color: #CC9900;
+}
+
+a.mecw:link {
+  color: #888888;
+}
+
+a.mecw:visited {
+  color: #999999;
+}
 
 div.border {
-	width: 93%; 
-	border: 0.5em solid #660000;
-	}
+  border-color: #660000;
+}
 
-p.title { color: #aa0000 }
-p.toc { color: #660000 }
-p.information { color: #660000 }
-p.pagenote { color: #660000 }
+h1,
+h1.big,
+h1.medium,
+h2,
+p.information,
+p.pagenote,
+p.toc,
+span.info,
+span.term,
+sup.anote,
+sup.ednote,
+sup.enote {
+  color: #660000;
+}
 
-H1 {color: #660000 }
-H1.big {color: #660000 }
-H2  {color: #660000 }
-H3  {color: #770000 }
-H4  {color: #770000 }
-H5  {color: #770000 }
-H6  {color: #770000 }
+h3,
+h4,
+h5,
+h6 {
+  color: #770000;
+}
 
-hr.section { color: #660000 }
-hr.base { color: #000000 }
-hr.end { color: #660000 }
-hr { color: #660000 }
+hr.section,
+hr.end,
+hr {
+  color: #660000;
+}
 
-sup.anote { color: #660000 }
-sup.ednote { color: #660000 }
-span.info { color: #660000 }
-span.term { color: #660000 }
+hr.base {
+  color: #000000;
+}
 
-@media (max-width: 480px) {
-  div.border { width: 95%; padding: 0.5em; 
-  border: 0.2em solid #99bb99; }
+p.title {
+  color: #aa0000;
+}
+
+p.updat {
+ color: #ffcc00;
 }
